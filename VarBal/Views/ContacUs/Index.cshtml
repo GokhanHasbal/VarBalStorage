@@ -1,0 +1,245 @@
+﻿@using VarBal.AdminModel;
+@model AboutModel
+@{
+    Layout = "~/Views/Shared/Admin_Layout.cshtml";
+    int i = 0;
+
+
+}
+
+<div class="content-page">
+    <div class="content">
+
+        <!-- Start Content-->
+        <div class="container-fluid">
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-body">
+
+                            <div class="row">
+
+                                <div class="col-12 mb-3">
+                                    <h4 class="mt-0 header-title">About Us</h4>
+                                    <p class="text-muted font-14 mb-3 float-start">
+                                    </p>
+                                    @*<a class="btn btn-success float-end" href="~/Brand/Add"><i class="fa fa-plus"></i> Brand Add</a>*@
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <table id="" class="table table-striped table-bordered dt-responsive nowrap">
+                                        <thead>
+                                            <tr>
+                                                <th>Main Headline</th>
+                                                <th>Description</th>
+                                                <th>Image</th>
+                                                <th>Edit</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            @foreach (var item in Model.Abouts)
+                                            {
+                                                i++;
+                                                string desc = item.Description;
+                                                string desc15 = "";
+                                                string tit = item.Title;
+                                                string tit15 = "";
+
+
+                                                if (tit.Length > 15)
+                                                {
+                                                    tit15 = tit.Substring(0, 20) + "...";
+                                                }
+                                                else
+                                                {
+                                                    tit15 = tit;
+
+                                                }
+
+                                                if (desc.Length > 15)
+                                                {
+                                                    desc15 = desc.Substring(0, 20) + "...";
+                                                }
+                                                else
+                                                {
+                                                    desc15 = desc;
+
+                                                }
+
+                                                <tr>
+                                                    <td>@tit15 </td>
+                                                    <td> @desc15 </td>
+                                                    <td><img src="~/Content/images/AboutImage/@item.Image" width="100"></td>
+
+                                                    <td>
+                                                        <a href="~/ContacUs/MainEdit?id=@item.Id" class="btn btn-success"><i class="mdi mdi-account-star"></i></a>
+
+                                                    </td>
+
+
+                                                </tr>
+                                            }
+
+                                        </tbody>
+
+
+                                    </table>
+                                    <br />
+                                    <br />
+                                    <table id="" class="table table-striped table-bordered dt-responsive nowrap">
+
+                                        <thead>
+                                            <tr>
+                                                <th>Mission</th>
+                                                <th>Vision</th>
+                                                <th>Image</th>
+                                                <th>Edit</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            @foreach (var item in Model.VizionAndMissions)
+                                            {
+                                                i++;
+                                                string desc = item.Description;
+                                                string desc15 = "";
+                                                string tit = item.Title;
+                                                string tit15 = "";
+
+
+                                                if (tit.Length > 15)
+                                                {
+                                                    tit15 = tit.Substring(0, 20) + "...";
+                                                }
+                                                else
+                                                {
+                                                    tit15 = tit;
+
+                                                }
+
+                                                if (desc.Length > 15)
+                                                {
+                                                    desc15 = desc.Substring(0, 20) + "...";
+                                                }
+                                                else
+                                                {
+                                                    desc15 = tit;
+
+                                                }
+
+                                                <tr>
+                                                    <td>@tit15 </td>
+                                                    <td> @desc15 </td>
+                                                    <td><img src="~/Content/images/AboutImage/@item.Image" width="100"></td>
+
+                                                    <td>
+                                                        <a href="~/ContacUs/MissionVisionEdit?id=@item.Id" class="btn btn-success"><i class="mdi mdi-account-star"></i></a>
+
+                                                    </td>
+
+
+                                                </tr>
+                                            }
+
+                                        </tbody>
+                                    </table>
+                                    <br />
+                                    <br />
+                                    <a href="~/ContacUs/WorkerAdd" class="btn btn-success float-end mb-3"><i class="mdi mdi-account-star"></i> Add New Employee</a>
+                                    <table id="" class="table table-striped table-bordered dt-responsive nowrap">
+
+                                        <thead>
+                                            <tr>
+                                                <th>Name Surname</th>
+                                                <th>Title</th>
+                                                <th>Image</th>
+                                                <th>Status</th>
+                                                <th>Edit</th>
+                                                <th>Delete</th>
+
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            @foreach (var item in Model.OurWorkers)
+                                            {
+                                                var image = string.IsNullOrEmpty(item.Image) ? "default-user.jpg" : item.Image;
+
+
+                                                <tr>
+                                                    <td>@item.NameSurname </td>
+                                                    <td>@item.Title</td>
+                                                    @*<td><img src="~/Content/images/AboutImage/@item.Image" width="100"></td>*@
+                                                    <td><img src="~/Content/images/AboutImage/@image" width="100"></td>
+                                                    @{var status = item.Status == true ? "btn-success" : "btn-danger";}
+                                                    <td>
+
+                                                        <a href="~/ContacUs/WorkerStatusEdit?id=@item.Id" class="btn @status">
+                                                            @item.Status
+                                                        </a>
+                                                    </td>
+                                                    <td>
+                                                        <a href="~/ContacUs/WorkerEdit?id=@item.Id" class="btn btn-success"><i class="mdi mdi-account-star"></i></a>
+
+                                                    </td>
+                                                    <td>
+                                                        <a href="~/ContacUs/DeleteWorker?id=@item.Id" class="btn btn-danger"><i class="fa fa-trash"></i></a>
+
+                                                    </td>
+
+                                                </tr>
+                                            }
+
+                                        </tbody>
+                                    </table>
+                                    <br />
+                                    <br />
+                                    <table id="" class="table table-striped table-bordered dt-responsive nowrap">
+
+                                        <thead>
+                                            <tr>
+                                                <th>Title</th>
+                                                <th>Description</th>
+                                                <th>Image</th>
+                                                <th>Edit</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            @foreach (var item in Model.AboutFeature)
+                                            {
+
+                                                var image = string.IsNullOrEmpty(item.Image) ? "default-about.png" : item.Image;
+
+
+
+                                                <tr>
+                                                    <td>@item.Title</td>
+                                                    <td>@item.Description</td>
+                                                    <td><img src="~/Content/images/AboutImage/@image" width="100"></td>
+
+                                                    <td>
+                                                        <a href="~/ContacUs/FeatureEdit?id=@item.Id" class="btn btn-success"><i class="mdi mdi-account-star"></i></a>
+
+                                                    </td>
+
+
+                                                </tr>
+                                            }
+
+                                        </tbody>
+                                    </table>
+
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

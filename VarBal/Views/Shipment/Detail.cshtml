@@ -1,0 +1,131 @@
+﻿@using VarBal.AdminModel;
+@model ShipmentModel
+@{
+    Layout = "~/Views/Shared/Admin_Layout.cshtml";
+}
+
+<div class="content-page">
+    <div class="content">
+
+        <!-- Start Content-->
+        <div class="container-fluid">
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="header-title">Create a Shipment</h4>
+                            <p class="sub-header">
+                                Fill in fields to create a new shipment
+                            </p>
+
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <form method="post" action="~/Shipment/Detail">
+
+
+                                        <div class="row">
+
+                                            <div class="col-lg-6 mb-3">
+                                                <label for="Description" class="form-label">Description</label>
+                                                <textarea id="Description" name="Description" class="form-control" required rows="3" disabled>@Model.SingleShipment.Description</textarea>
+
+                                            </div>
+                                            <div class="col-md-6 text-center">
+                                                <h3>Create Shipment</h3>
+                                                <p>Please add your information accordingly</p>
+                                                <h2>@ViewBag.mesaj</h2>
+                                            </div>
+                                        </div>
+
+
+
+                                        <div class="row">
+                                            <div class="col-lg-6 mb-6">
+                                                <label class="form-label">Sender</label>
+                                                <select class="form-control" name="SenderId" id="SenderId" disabled>
+                                                    <option value="@Model.SingleShipment.SenderId">@Model.SingleSenderWareHouse.Name </option>
+                                                </select>
+                                            </div>
+                                            <div class="col-lg-6 mb-6">
+                                                <label class="form-label">Receiver</label>
+                                                <select class="form-control" name="ReceiverId" id="ReceiverId" disabled>
+                                                    <option value="@Model.SingleShipment.ReceiverId">@Model.SingleReceiverWareHouse.Name </option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-lg-6 mb-6">
+                                                <label class="form-label">Product</label>
+                                                <select class="form-control" name="ProductId" id="ProductId" disabled>
+                                                    <option value="@Model.SingleShipment.ProductId">@Model.SingleProduct.Name </option>
+                                                </select>
+                                            </div>
+
+                                            <div class="col-lg-6 mb-6 float-end">
+                                                <label for="Stock" class="form-label">Stock</label>
+                                                <input type="number" id="Stock" name="Stock" class="form-control" value="@Model.SingleShipment.Stock" disabled required>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-6 mb-3">
+                                                <label class="form-label">Şoförler</label>
+                                                <select class="form-control" name="UserId" id="UserId" disabled>
+                                                    <option value="@Model.SingleShipment.UserId">@Model.SingleUser.Name </option>
+                                                </select>
+                                            </div>
+                                            <div class="col-lg-6 mb-6 ">
+                                                <label class="form-label">Vehicle</label>
+                                                <select class="form-control" name="VehicleId" id="VehicleId" disabled>
+                                                    <option value="@Model.SingleShipment.VehicleId">@Model.SingleVehicle.Name </option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-6 mb-6 ">
+                                            <label class="form-label">Process</label>
+                                            <select class="form-control" name="Process" id="Process">
+                                                <option value="ok"> Sipariş Alındı </option>
+                                                  <option value="ready"> Sipariş Hazırlanıyor </option>
+                                                    <option value="yolda"> Sipariş Yola Çıktı </option>
+                                                    <option value="finish"> Teslim Edildi </option>
+                                            </select>
+                                        </div>
+
+                                        <input type="hidden" name="Id" value="@Model.SingleShipment.Id" />
+
+                                        <input type="hidden" name="Name" value="@Model.SingleProduct.Name"/>
+                                        <input type="hidden" name="Description" value="@Model.SingleProduct.Description"/>
+                                        <input type="hidden" name="Barcode" value="@Model.SingleProduct.Barcode"/>
+                                        <input type="hidden" name="Price" value="@Model.SingleProduct.Price"/>
+                                        <input type="hidden" name="Tax" value="@Model.SingleProduct.Tax"/>
+                                        <input type="hidden" name="CategoryId" value="@Model.SingleProduct.CategoryId"/>
+                                        <input type="hidden" name="BrandId" value="@Model.SingleProduct.BrandId"/>
+                                        <input type="hidden" name="ShelfId" value="@Model.SingleProduct.ShelfId"/>
+                                        <input type="hidden" name="WarehouseId" value="@Model.SingleShipment.ReceiverId"/>
+                                        <input type="hidden" name="Status" value="@Model.SingleProduct.Status"/>
+                                        <input type="hidden" name="Delete" value="@Model.SingleProduct.Delete"/>
+                                        <input type="hidden" name="View" value="@Model.SingleProduct.View"/>
+                                        <input type="hidden" name="Image" value="@Model.SingleProduct.Image"/>
+                                        <input type="hidden" name="Stock" value="@Model.SingleShipment.Stock"/>
+
+
+                                        <button class="btn btn-success mt-3" type="submit">Add New Shelf</button>
+                                    </form>
+                                </div> <!-- end col -->
+
+
+                            </div>
+                            <!-- end row-->
+
+
+                        </div> <!-- end card-body -->
+                    </div> <!-- end card -->
+                </div><!-- end col -->
+            </div>
+            <!-- end row -->
+        </div>
+    </div>
+</div>
+

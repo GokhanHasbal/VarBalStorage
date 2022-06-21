@@ -1,0 +1,119 @@
+﻿@using VarBal.Models;
+@model Contact
+@{
+    Layout = "~/Views/Shared/Admin_Layout.cshtml";
+    var image = string.IsNullOrEmpty(Model.Image) ? "default-contact.png" : Model.Image;
+
+}
+
+<div class="content-page">
+    <div class="content">
+
+        <!-- Start Content-->
+        <div class="container-fluid">
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="header-title">Edit Contact</h4>
+                            <p class="sub-header">
+                                Edit Contact Us Page
+                            </p>
+                            <a href="~/Home/Index" class="btn btn-info float-end  ">Go To HomePage</a>
+
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <form method="post" action="~/ContactPage/Edit" enctype="multipart/form-data">
+
+                                        <div class="mb-3">
+                                            <img src="~/Content/images/ContactPageImage/@image" class="w-100 mt-3" />
+                                            <br />
+                                            <input type="file" class="form-control mt-3" name="Image" id="Image" />
+
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <label class="form-label">Primary Address </label>
+                                            <input type="text" class="form-control" id="Adress1" name="Adress1" required value="@Model.Adress1">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label class="form-label">Secondary Address </label>
+                                            <input type="text" class="form-control" id="Adress2" name="Adress2" required value="@Model.Adress2">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label class="form-label">Primary Phone Number </label>
+                                            <input type="text" class="form-control" id="Phone1" name="Phone1" required value="@Model.Phone1">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label class="form-label">Secondary Phone Number </label>
+                                            <input type="text" class="form-control" id="Phone2" name="Phone2" required value="@Model.Phone2">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label class="form-label">Primary Mail Address </label>
+                                            <input type="text" class="form-control" id="Mail1" name="Mail1" required value="@Model.Mail1">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label class="form-label">Secondary Mail Address </label>
+                                            <input type="text" class="form-control" id="Mail2" name="Mail2" required value="@Model.Mail2">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="Description" class="form-label">Description</label>
+                                            <textarea id="Description" name="Description" class="form-control" rows="3">@Model.Description</textarea>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label class="form-label">Facebook</label>
+                                            <input type="text" class="form-control" id="Facebook" name="Facebook" required value="@Model.Facebook">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label class="form-label">Twitter</label>
+                                            <input type="text" class="form-control" id="Twitter" name="Twitter" required value="@Model.Twitter">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label class="form-label">Instagram</label>
+                                            <input type="text" class="form-control" id="Instagram" name="Instagram" required value="@Model.Instagram">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label class="form-label">Youtube</label>
+                                            <input type="text" class="form-control" id="Youtube" name="Youtube" required value="@Model.Youtube">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label class="form-label">Linkedin</label>
+                                            <input type="text" class="form-control" id="Linkedin" name="Linkedin" required value="@Model.Linkedin">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label class="form-label">Pinterest</label>
+                                            <input type="text" class="form-control" id="Pinterest" name="Pinterest" required value="@Model.Pinterest">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="Description" class="form-label">GoogleMaps</label>
+                                            <textarea id="GoogleMaps" name="GoogleMaps" class="form-control" rows="3">@Model.GoogleMaps</textarea>
+                                        </div>
+                                        <div class="form-check mb-2 form-check-success">
+                                            <input class="form-check-input" type="checkbox" checked="@Model.Status" value="true" id="Status" name="Status">
+                                            <label class="form-check-label" for="customckeck1">Status</label>
+                                        </div>
+
+                                        <input type="hidden" value="@Model.Id" name="Id" id="Id" />
+
+                                        <button class="btn btn-success" type="submit"> Edit</button>
+
+                                    </form>
+                                </div> <!-- end col -->
+                                <div class="col-md-6 text-center">
+                                    <h3>Edit Contact</h3>
+                                    <p>Please add your information accordingly</p>
+                                    <h4>@ViewBag.mesaj</h4>
+                                </div>
+                            </div>
+                            <!-- end row-->
+
+                        </div> <!-- end card-body -->
+                    </div> <!-- end card -->
+                </div><!-- end col -->
+            </div>
+            <!-- end row -->
+        </div>
+    </div>
+</div>
+

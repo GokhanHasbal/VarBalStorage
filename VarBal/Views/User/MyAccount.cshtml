@@ -1,0 +1,91 @@
+﻿@using VarBal.Models;
+@model User
+@{
+    ViewBag.Title = "MyAccount";
+    Layout = "~/Views/Shared/Admin_Layout.cshtml";
+    var image = string.IsNullOrEmpty(Model.Image) ? "default-user.png" : Model.Image;
+}
+
+<div class="content-page">
+    <div class="content">
+
+        <!-- Start Content-->
+        <div class="container-fluid">
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="header-title">My Account</h4>
+                            <p class="sub-header">
+                                Kullanını bilgileriniz.
+                            </p>
+
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <table class="table">
+                                        <tr>
+                                            <td>Name</td>
+                                            <td>@Model.Name</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Surname</td>
+                                            <td>@Model.Surname</td>
+                                        </tr>
+                                        <tr>
+                                            <td>User Name</td>
+                                            <td>@Model.Username</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Email</td>
+                                            <td>@Model.Email</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Permission</td>
+                                            <td>@ViewBag.yetki</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Phone</td>
+                                            <td>@Model.Phone</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="~/User/UpdateMyAccount" class="btn btn-success">Update My Account</a>
+                                            </td>
+                                            <td>
+                                                <a href="~/User/ResetPassword" class="btn btn-danger">Reset Password</a>
+                                            </td>
+                                        </tr>
+                                    </table>
+
+
+                                </div> <!-- end col -->
+                                <div class="col-md-7 text-center">
+                                    <img src="~/Content/images/UserImage/@image" width="50%" />
+                                    <br />
+                                    <form method="post" enctype="multipart/form-data" action="~/User/UpdateImage">
+
+                                        <div class="mb-3 mt-3 p-4">
+                                            <div class="input-group">
+                                                <input type="file" class="form-control" name="Image" id="Image" />
+                                                <button class="btn input-group-text btn-blue" type="submit">Update Image</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                    <h2>@ViewBag.mesaj</h2>
+
+                                </div>
+                                <!-- end row-->
+
+                            </div> <!-- end card-body -->
+                        </div> <!-- end card -->
+                    </div><!-- end col -->
+                </div>
+                <!-- end row -->
+            </div>
+        </div>
+    </div>
+
+
+

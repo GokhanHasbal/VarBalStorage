@@ -1,0 +1,85 @@
+﻿
+@using VarBal.AdminModel;
+@model AddressModel
+@{
+    ViewBag.Title = "Add";
+    Layout = "~/Views/Shared/Admin_Layout.cshtml";
+}
+
+<div class="content-page">
+    <div class="content">
+
+        <!-- Start Content-->
+        <div class="container-fluid">
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="header-title">Add New Address</h4>
+                            <p class="sub-header">
+                                Fill in fields to add a new address
+                            </p>
+
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <form method="post" action="~/Address/Add">
+
+
+
+                                        <div class="mb-3">
+                                            <label class="form-label">Title</label>
+                                            <input type="text" class="form-control" name="Title" id="Title" required>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label class="form-label">Country</label>
+                                            <input type="text" class="form-control" id="Country" name="Country" required>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label class="form-label">City</label>
+                                            <input type="text" class="form-control" id="City" name="City" required>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label class="form-label">District</label>
+                                            <input type="text" class="form-control" id="District" name="District" required>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label class="form-label">Street</label>
+                                            <input type="text" class="form-control" id="Street" name="Street" required>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label class="form-label">Post Code</label>
+                                            <input type="text" class="form-control" id="PostCode" name="PostCode" required>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label class="form-label">Building Number</label>
+                                            <input type="text" class="form-control" id="BuildingNumber" name="BuildingNumber" required>
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <label class="form-label">Full Address</label>
+                                            <textarea class="form-control" id="FullAddress" name="FullAddress"> </textarea>
+                                        </div>
+
+
+                                        <button class="btn btn-success" type="submit"> Add</button>
+
+                                    </form>
+                                </div> <!-- end col -->
+                                <div class="col-md-6 text-center">
+                                    <h3>Add New Address</h3>
+                                    <p>Please add your information accordingly</p>
+                                    <h4>@ViewBag.mesaj</h4>
+                                </div>
+                            </div>
+                            <!-- end row-->
+
+                        </div> <!-- end card-body -->
+                    </div> <!-- end card -->
+                </div><!-- end col -->
+            </div>
+            <!-- end row -->
+        </div>
+    </div>
+</div>
+

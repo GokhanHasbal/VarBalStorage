@@ -1,0 +1,78 @@
+﻿@using VarBal.Models;
+@model List<ContactUs>
+@{
+    int i = 0;
+    Layout = "~/Views/Shared/Admin_Layout.cshtml";
+}
+
+<div class="content-page">
+    <div class="content">
+
+        <!-- Start Content-->
+        <div class="container-fluid">
+
+
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-body">
+
+                            <div class="row">
+
+                                <div class="col-12 mb-3">
+                                    <h4 class="mt-0 header-title">Contact Us List</h4>
+                                    <p class="text-muted font-14 mb-3 float-start">
+                                        Bilgi almak için mesaj atanların listesi
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <table id="datatable-buttons" class="table table-striped table-bordered dt-responsive nowrap">
+                                        <thead>
+                                            <tr>
+                                                <th>No</th>
+                                                <th>Name & Surname</th>
+                                                <th>Email</th>
+                                                <th>Subject</th>
+                                                <th>Status</th>
+                                                <th>Setting</th>
+                                            </tr>
+                                        </thead>
+
+
+                                        <tbody>
+                                            @foreach (var news in Model)
+                                            {
+                                                i++;
+
+                                                <tr>
+                                                    <td>@i</td>
+                                                    <td>@news.NameSurname</td>
+                                                    <td>@news.Email</td>
+                                                    <td>@news.Subject</td>
+                                                    @{var status = news.Status == true ? "btn-success" : "btn-danger"; }
+                                                    <td><a class="btn  @status">@news.Status</a></td>
+
+                                                    <td>
+                                                        <a href="~/Contact/Detail?id=@news.Id" class="btn btn-success"><i class="mdi mdi-account-star"></i></a>
+                                                        <a href="~/Contact/Delete?id=@news.Id" class="btn btn-danger"><i class="fa fa-trash"></i></a>
+                                                    </td>
+                                                </tr>
+                                            }
+
+
+                                        </tbody>
+                                    </table>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

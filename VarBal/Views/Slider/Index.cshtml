@@ -1,0 +1,92 @@
+﻿@using VarBal.Models;
+@model List<Slider>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/Admin_Layout.cshtml";
+    int i = 0;
+}
+
+<div class="content-page">
+    <div class="content">
+
+        <!-- Start Content-->
+        <div class="container-fluid">
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-body">
+
+                            <div class="row">
+
+                                <div class="col-12 mb-3">
+                                    <h4 class="mt-0 header-title">Slider List</h4>
+                                    <p class="text-muted font-14 mb-3 float-start">
+                                        All Slider
+                                    </p>
+                                    <a class="btn btn-success float-end" href="~/Slider/Add"><i class="fa fa-plus"></i> Slider Add</a>
+                                    <a href="~/" class="btn btn-info float-end  ">Back</a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <table id="datatable-buttons" class="table table-striped table-bordered dt-responsive nowrap">
+                                        <thead>
+                                            <tr>
+                                                <th>No</th>
+                                                <th>Title</th>
+                                                <th>Image</th>
+                                                <th>Description</th>
+                                                <th>Status</th>
+                                                <th>Edit</th>
+                                                <th>Delete</th>
+                                            </tr>
+                                        </thead>
+
+                                        <tbody>
+
+
+                                            @foreach (var item in Model)
+                                            {
+                                                i++;
+
+                                                <tr>
+                                                    <td>@i</td>
+                                                    <td>@item.Title</td>
+                                                    <td><img src="~/Content/images/SliderImage/@item.Image" width="100"></td>
+
+                                                    <td>@item.Description</td>
+
+                                                    @{var status = item.Status == true ? "btn-success" : "btn-danger";}
+                                                    <td>
+
+                                                        <a href="~/Slider/SliderStatusEdit?id=@item.Id" class="btn @status">
+                                                            @item.Status
+                                                        </a>
+                                                    </td>
+                                                    <td>
+                                                        <a href="~/Slider/Edit?id=@item.Id" class="btn btn-success"><i class="mdi mdi-account-star"></i></a>
+
+                                                    </td>
+
+                                                    <td>
+                                                        <a href="~/Slider/Delete?id=@item.Id" class="btn btn-danger"><i class="fa fa-trash"></i></a>
+
+                                                    </td>
+                                                </tr>
+                                            }
+
+                                        </tbody>
+                                    </table>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

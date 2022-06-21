@@ -1,0 +1,139 @@
+﻿
+@{
+    ViewBag.Title = "Login";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Register & Signup | VarBal Storage System </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="Coderthemes" name="author" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- App favicon -->
+    <link rel="shortcut icon" href="~/Content/Panel/assets/images/favicon.ico">
+
+    <!-- App css -->
+
+    <link href="~/Content/Panel/assets/css/app.min.css" rel="stylesheet" type="text/css" id="app-style" />
+
+    <!-- icons -->
+    <link href="~/Content/Panel/assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body class="loading bg-dark">
+
+    <div class="account-pages mb-5">
+        <div class="container">
+            <div class="row justify-content-center mt-5">
+
+                <h1 class="text-center text-light mb-5"> VarBal Storage Systems</h1>
+
+                <div class="col-4">
+                    <div class="card">
+                        <div class="card-body p-4">
+                            <div class="text-center mb-4">
+                                <h4 class="text-uppercase mt-0">Login</h4>
+                            </div>
+                            @using (Html.BeginForm())
+                            {
+
+                                <div class="mb-3">
+                                    <label for="UserName" class="form-label">Username</label>
+                                    @Html.TextBox("UserName", null, new { @class = "form-control", required = "required", type = "text", placeholder = "Username" })
+                                </div>
+                                <div class="mb-3">
+                                    <label for="Password" class="form-label">Password</label>
+                                    @Html.TextBox("Password", null, new { @class = "form-control", required = "required", type = "password", placeholder = "Password" })
+                                </div>
+
+                                <div class="mb-3 text-center d-grid">
+                                    <button class="btn btn-primary" type="submit" > Login </button>
+                                </div>
+                                <h4>@ViewBag.mesaj</h4>
+                            }
+                        </div> <!-- end card-body -->
+                    </div>
+
+                </div>
+                <div class="col-1"></div>
+                <div class="col-3 ">
+                    @*<img src="~/Content/Panel/assets/images/varbal_logo2.gif" alt="" class="w-100">*@
+                    <img src="~/Content/images/VarBal-logos_black.png" alt="logo" class="img-fluid">
+
+
+                </div>
+                <div class="col-12 text-center">
+                    <p class="text-light"><a href="~/Home/Register" class="text-light ms-1"><b>Don't have an account? Register Here.</b></a></p>
+                    <p class="text-light"><a href="~/Home/ForgetPassword" class="text-light ms-1"><b> Forget your password? </b></a></p>
+                    <p class="text-light"><a href="~/Home/Index" class="text-light ms-1"><b> Back </b></a></p>
+                    
+                </div>
+
+                <!--<div class="col-12 col-md-8 col-lg-6 col-xl-4">
+    <div class="col-6 text-center mb-5">
+        <img src="~/Content/Panel/assets/images/varbal_logo2.gif" alt="" class="mx-auto ">
+        <h1 class="text-center text-light"> VarBal Storage Systems</h1>
+    </div>
+
+    <div class="col-6">
+        <div class="card">
+            <div class="card-body p-4">
+                <div class="text-center mb-4">
+                    <h4 class="text-uppercase mt-0">Login</h4>
+                </div>
+                @using (Html.BeginForm())
+                {
+
+                    <div class="mb-3">
+                        <label for="Email" class="form-label">Username</label>
+                        @Html.TextBox("Email", null, new { @class = "form-control", required = "required", type = "email", placeholder = "Username" })
+                    </div>
+                    <div class="mb-3">
+                        <label for="Password" class="form-label">Password</label>
+                        @Html.TextBox("Password", null, new { @class = "form-control", required = "required", type = "password", placeholder = "Password" })
+                    </div>
+
+                    <div class="mb-3 text-center d-grid">
+                        <button class="btn btn-primary" type="submit"> Login </button>
+                    </div>
+                    <h4>@ViewBag.mesaj</h4>
+                }
+            </div>-->
+                <!-- end card-body -->
+                <!--</div>
+    </div>-->
+                <!-- end card -->
+                <!--<div class="row mt-3">
+    <div class="col-12 text-center">
+        <p class="text-light"><a href="~/Admin/Register" class="text-light ms-1"><b>Don't have an account? Register Here.</b></a></p>
+        <p class="text-light"><a href="~/Admin/ForgetPassword" class="text-light ms-1"><b> Forget your password? </b></a></p>
+    </div>-->
+                <!-- end col -->
+                <!--</div>-->
+                <!-- end row -->
+                <!--</div>--> <!-- end col -->
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- end container -->
+    </div>
+    <!-- end page -->
+    <!-- Vendor -->
+    <script src="~/Content/Panel/assets/libs/jquery/jquery.min.js"></script>
+    <script src="~/Content/Panel/assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="~/Content/Panel/assets/libs/simplebar/simplebar.min.js"></script>
+    <script src="~/Content/Panel/assets/libs/node-waves/waves.min.js"></script>
+    <script src="~/Content/Panel/assets/libs/waypoints/lib/jquery.waypoints.min.js"></script>
+    <script src="~/Content/Panel/assets/libs/jquery.counterup/jquery.counterup.min.js"></script>
+    <script src="~/Content/Panel/assets/libs/feather-icons/feather.min.js"></script>
+
+    <!-- App js -->
+    <script src="~/Content/Panel/assets/js/app.min.js"></script>
+</body>
+</html>
+
+

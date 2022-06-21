@@ -1,0 +1,203 @@
+﻿@using VarBal.AdminModel;
+@model ProductModel
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/Admin_Layout.cshtml";
+    var image = string.IsNullOrEmpty(Model.SingleProduct.Image) ? "default-product.png" : Model.SingleProduct.Image;
+
+}
+
+<div class="content-page">
+    <div class="content">
+
+        <!-- Start Content-->
+        <div class="container-fluid">
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="header-title">@Model.SingleProduct.Name - Product Edit</h4>
+                            <p class="sub-header">
+                                Ürün Düzenleme
+                            </p>
+                            <div class="row mb-3">
+                                <div class="col-md-5">
+                                    <img src="~/Content/images/ProductImage/@image" width="100%" />
+                                </div>
+                                <div class="col-md-7">
+                                    <style>
+                                        .image-setting {
+                                            position: absolute;
+                                        }
+                                    </style>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <form method="post" action="~/Product/Edit" enctype="multipart/form-data">
+                                        <div class="mb-3">
+                                            <label for="Image" class="form-label">Image</label>
+                                            <input type="file" id="Image" name="Image" class="form-control">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="Name" class="form-label">Name</label>
+                                            <input type="text" id="Name" name="Name" class="form-control" required value="@Model.SingleProduct.Name">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="Description" class="form-label">Description</label>
+                                            <textarea id="Description" name="Description" class="form-control" required>
+                                              @Model.SingleProduct.Description                  
+                                            </textarea>
+
+                                            <div style="height:500px;width:100%;background-color:white;color:black!important;">
+
+                                                @Html.Raw(Model.SingleProduct.Description)
+                                            </div>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="Name" class="form-label">Registration Date</label>
+                                            <input type="text" id="Name" name="Name" class="form-control" required value="@Model.SingleProduct.RegisterDate" disabled>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="Name" class="form-label">Barcode Number</label>
+                                            <input type="text" id="Name" name="Name" class="form-control" required value="@Model.SingleProduct.Barcode" disabled>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="Stock" class="form-label">Stock</label>
+                                            <input type="number" min="0" id="Stock" name="Stock" class="form-control" value="@Model.SingleProduct.Stock" required>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="Price" class="form-label">Price</label>
+                                            <div class="row">
+                                                <div class="col-8">
+                                                    @{
+                                                        string fiyat = Model.SingleProduct.Price.ToString();
+                                                        string price = "";
+                                                        string subprice = "";
+                                                        if (fiyat.Contains(','))
+                                                        {
+                                                            string[] deger = fiyat.Split(',');
+                                                            price = deger[0];
+                                                            subprice = deger[1];
+                                                        }
+                                                        else
+                                                        {
+                                                            price = Model.SingleProduct.Price.ToString();
+                                                            subprice = "00";
+                                                        }
+                                                    }
+                                                    <input type="number" min="0" id="Price" name="Price" class="form-control" value="@price" required>
+                                                </div>
+
+                                                <div class="col-4">
+                                                    <input type="number" min="0" max="99" id="SubPrice" name="SubPrice" class="form-control" value="@subprice" required>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <label for="Tax" class="form-label">Tax</label>
+                                            <input type="number" min="0" max="20" id="Tax" step="0.1" name="Tax" class="form-control" value="@Model.SingleProduct.Tax" required>
+                                        </div>
+
+
+                                        <div class="mb-3">
+                                            <label class="form-label">Category</label>
+                                            <select class="form-control" name="CategoryId" id="CategoryId">
+                                                <option value="@Model.SingleProduct.CategoryId" class="text-primary">
+                                                    @Model.SingleProduct.Category.Name
+                                                </option>
+
+                                                @foreach (var category in Model.Category)
+                                                {
+                                                    <option value="@category.Id" class="text-danger">@category.Name</option>
+                                                    <optgroup>
+                                                        @foreach (var subcategory in Model.SubCategory.Where(x => x.MainCategoryId == category.Id))
+                                                        {
+                                                            <option value="@subcategory.Id" class="text-success">@subcategory.Name</option>
+                                                        }
+                                                    </optgroup>
+                                                }
+                                            </select>
+
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <label class="form-label">Shelf</label>
+                                            <select class="form-control" name="ShelfId" id="ShelfId">
+                                                <option value="@Model.SingleProduct.ShelfId" class="text-primary">
+                                                    @Model.SingleProduct.Shelf.Name
+                                                </option>
+
+                                                @foreach (var shelf in Model.Shelf)
+                                                {
+                                                    <option value="@shelf.Id" class="text-danger">@shelf.Name</option>
+                                                    <optgroup>
+                                                        @foreach (var subshelf in Model.SubShelf.Where(x => x.MainShelfId == shelf.Id))
+                                                        {
+                                                            <option value="@subshelf.Id" class="text-success">@subshelf.Name</option>
+                                                        }
+                                                    </optgroup>
+                                                }
+                                            </select>
+
+                                        </div>
+                                        <div class="mb-3">
+                                            <label class="form-label">Brand</label>
+                                            <select class="form-control" name="BrandId" id="BrandId">
+                                                <option value="@Model.SingleProduct.BrandId" class="text-primary">
+                                                    @Model.SingleProduct.Brand.Name
+                                                </option>
+                                                <optgroup>
+                                                    @foreach (var item in Model.Brand)
+                                                    {
+                                                        <option value="@item.Id">@item.Name</option>
+                                                    }
+                                                </optgroup>
+
+                                            </select>
+                                        </div><div class="mb-3">
+                                            <label class="form-label">Warehouse</label>
+                                            <select class="form-control" name="WarehouseId" id="WarehouseId">
+                                                <option value="@Model.SingleProduct.WarehouseId" class="text-primary">
+                                                    @Model.SingleProduct.Warehouse.Name
+                                                </option>
+                                                <optgroup>
+                                                    @foreach (var item in Model.Warehouse)
+                                                    {
+                                                        <option value="@item.Id">@item.Name</option>
+                                                    }
+                                                </optgroup>
+
+                                            </select>
+                                        </div>
+                                       
+
+                                        <div class="form-check mb-2 form-check-success">
+                                            <input class="form-check-input" type="checkbox" value="true" id="Status" name="Status" checked="@Model.SingleProduct.Status">
+                                            <label class="form-check-label" for="customckeck1">Status</label>
+                                        </div>
+                                        <input type="hidden" value="@Model.SingleProduct.Id" name="Id" id="Id" />
+
+                                        <button class="btn btn-success" type="submit">Edit Product</button>
+                                    </form>
+                                </div> <!-- end col -->
+
+                            </div>
+                            <!-- end row-->
+
+                        </div> <!-- end card-body -->
+                    </div> <!-- end card -->
+                </div><!-- end col -->
+            </div>
+            <!-- end row -->
+        </div>
+    </div>
+</div>
+<script>
+    $(document).ready(function () {
+        $('#Description').summernote({ height: 300 });
+    });
+</script>

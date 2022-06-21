@@ -1,0 +1,105 @@
+﻿@using VarBal.AdminModel;
+@model ProductModel
+@{
+    Layout = "~/Views/Shared/Admin_Layout.cshtml";
+    int i = 0;
+}
+
+<div class="content-page">
+    <div class="content">
+
+        <!-- Start Content-->
+        <div class="container-fluid">
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-body">
+
+                            <div class="row">
+
+                                <div class="col-12 mb-3">
+                                    <h4 class="mt-0 header-title">Product List</h4>
+                                    <p class="text-muted font-14 mb-3 float-start">
+                                        Sitede bulunan ürün listesi
+                                    </p>
+                                    <a class="btn btn-success float-end" href="~/Product/Add"><i class="fa fa-plus"></i> Product Add</a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <table id="datatable-buttons" class="table table-striped table-bordered dt-responsive nowrap table-sm">
+                                        <thead>
+                                            <tr>
+                                                <th>No</th>
+                                                <th>Name</th>
+                                                <th>Image</th>
+                                                <th>Stock</th>
+                                                <th>Warehouse</th>
+                                                <th>Category</th>
+                                                <th>Brand</th>
+                                                <th>Shelf</th>
+                                                <th>Status</th>
+                                                <th>Edit</th>
+                                                <th>Delete</th>
+
+                                            </tr>
+                                        </thead>
+
+
+                                        <tbody>
+                                            @foreach (var product in Model.Product)
+                                            {
+                                                i++;
+
+                                            <tr>
+                                                <td>@i</td>
+                                                <td>@product.Name</td>
+                                                <td>
+                                                    @{
+                                                        string image = string.IsNullOrEmpty(product.Image) ? "default-product.png" : product.Image;
+                                                    }
+                                                    <img src="~/Content/images/ProductImage/@image" width="100" />
+                                                </td>
+                                                <td>
+                                                    @product.Stock
+                                                </td>
+                                                <td>
+                                                    @product.Warehouse.Name
+                                                </td>
+                                                <td>
+                                                    @product.Category.Name
+                                                </td>
+                                                <td>
+                                                    @product.Brand.Name
+                                                </td>
+                                                <td>
+                                                    @product.Shelf.Name
+                                                </td>
+
+                                                @{var status = product.Status == true ? "btn-success" : "btn-danger"; }
+                                                <td><a href="~/Product/ProductStatusEdit?id=@product.Id" class="btn  @status ">@product.Status</a></td>
+
+
+                                                <td>
+                                                    <a href="~/Product/Edit?id=@product.Id" class="btn btn-success"><i class="mdi mdi-account-star"></i></a>
+
+                                                </td>
+                                                <td>
+                                                    <a href="~/Product/Delete?id=@product.Id" class="btn btn-danger"><i class="fa fa-trash"></i></a>
+                                                </td>
+                                            </tr>
+                                            }
+                                        </tbody>
+                                    </table>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

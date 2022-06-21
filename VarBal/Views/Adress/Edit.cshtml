@@ -1,0 +1,92 @@
+﻿
+@using VarBal.Models;
+@model Address
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/Admin_Layout.cshtml";
+}
+
+<div class="content-page">
+    <div class="content">
+
+        <!-- Start Content-->
+        <div class="container-fluid">
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="header-title">Update Address</h4>
+                            <p class="sub-header">
+                                Please update your information accordingly
+
+                            </p>
+
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <form method="post" action="~/Address/Edit">
+
+
+
+                                        <div class="mb-3">
+                                            <label class="form-label">Title</label>
+                                            <input type="text" class="form-control" name="Title" id="Title" required value="@Model.Title">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label class="form-label">Country</label>
+                                            <input type="text" class="form-control" id="Country" name="Country" required value="@Model.Country">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label class="form-label">City</label>
+                                            <input type="text" class="form-control" id="City" name="City" required value="@Model.City">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label class="form-label">District</label>
+                                            <input type="text" class="form-control" id="District" name="District" required value="@Model.District">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label class="form-label">Street</label>
+                                            <input type="text" class="form-control" id="Street" name="Street" required value="@Model.Street">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label class="form-label">Post Code</label>
+                                            <input type="text" class="form-control" id="PostCode" name="PostCode" required value="@Model.PostCode">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label class="form-label">Building Number</label>
+                                            <input type="text" class="form-control" id="BuildingNumber" name="BuildingNumber" required value="@Model.BuildingNumber">
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <label class="form-label">Full Address</label>
+                                            <input type="text" class="form-control" id="FullAddress" name="FullAddress" value="@Model.FullAddress">
+                                        </div>
+                                        <div class="form-check mb-2 form-check-primary">
+                                            <input class="form-check-input" type="checkbox" value="@Model.Status" id="Status" name="Status" checked="" />
+                                            <label class="form-check-label" for="customcheck1">Status</label>
+                                        </div>
+                                        <div class="form-check mb-2 form-check-primary">
+                                            <input class="form-check-input" type="checkbox" value="@Model.Selection" id="Selecton" name="Selection" checked="" />
+                                            <label class="form-check-label" for="customcheck1">Selected Address</label>
+                                        </div>
+                                        <button class="btn btn-success" type="submit"> Edit</button>
+
+                                    </form>
+                                </div> <!-- end col -->
+                                <div class="col-md-6 text-center">
+                                    <h3>Update Your Address</h3>
+                                    <p>Please add your information accordingly</p>
+                                    <h4>@ViewBag.bildirim</h4>
+                                </div>
+                            </div>
+                            <!-- end row-->
+
+                        </div> <!-- end card-body -->
+                    </div> <!-- end card -->
+                </div><!-- end col -->
+            </div>
+            <!-- end row -->
+        </div>
+    </div>
+</div>
+

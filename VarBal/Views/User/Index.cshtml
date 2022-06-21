@@ -1,0 +1,88 @@
+﻿@using VarBal.AdminModel;
+@model UserModel
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/Admin_Layout.cshtml";
+    var i = 0;
+
+}
+
+<div class="content-page">
+    <div class="content">
+
+        <!-- Start Content-->
+        <div class="container-fluid">
+
+
+            <!-- Start row-->
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row">
+
+                                <div class="col-12 mb-3">
+                                    <h4 class="mt-0 header-title">User List</h4>
+                                    <p class="text-muted font-14 mb-3 float-start">
+                                        People who are registered to site
+
+                                    </p>
+                                    <a class="btn btn-success float-end" href="~/User/Add"><i class="fa fa-plus"></i> User Add</a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+
+                                    <table id="datatable-buttons" class="table table-striped table-bordered dt-responsive nowrap">
+                                        <thead>
+                                            <tr>
+                                                <th>No</th>
+                                                <th>Username</th>
+                                                <th>Email</th>
+                                                <th>Name</th>
+                                                <th>Surname</th>
+                                                <th>Permission</th>
+                                                <th>Setting</th>
+                                            </tr>
+                                        </thead>
+
+
+                                        <tbody>
+                                            @foreach (var item in Model.User)
+                                            {
+                                                i++;
+                                                //var permission = Model.Permission.Where(x => x.Id == item.PermissionId).FirstOrDefault().Name;
+                                                //var grade = Model.Grade.Where(x => x.Id == item.GradeId).FirstOrDefault().Name;
+                                                <tr>
+                                                    <td>@i</td>
+                                                    <td>@item.Username</td>
+                                                    <td>@item.Email</td>
+                                                    <td>@item.Name</td>
+                                                    <td>@item.Surname</td>
+                                                    <td>@item.Permission.Name</td>
+                                                    <td>
+                                                        <a href="~/User/Edit?id=@item.Id" class="btn btn-success"><i class="fa fa-user-cog"></i></a>
+                                                        <a href="~/User/Delete?id=@item.Id" class="btn btn-danger"><i class="fa fa-trash"></i></a>
+                                                    </td>
+                                                </tr>
+                                            }
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- end row -->
+
+
+                </div>
+                <!-- container-fluid -->
+
+            </div> <!-- content -->
+
+
+        </div>
+    </div>
+</div>

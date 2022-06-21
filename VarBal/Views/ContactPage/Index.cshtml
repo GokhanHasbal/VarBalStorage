@@ -1,0 +1,84 @@
+﻿@using VarBal.Models;
+@model List<Contact>
+@{
+    Layout = "~/Views/Shared/Admin_Layout.cshtml";
+}
+
+<div class="content-page">
+    <div class="content">
+
+        <!-- Start Content-->
+        <div class="container-fluid">
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-body">
+
+                            <div class="row">
+
+                                <div class="col-12 mb-3">
+                                    <h4 class="mt-0 header-title">Contact Us Information</h4>
+                                    <p class="text-muted font-14 mb-3 float-start">
+                                    </p>
+                                    <a href="~/" class="btn btn-info float-end  ">Back</a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <table id="datatable-buttons" class="table table-striped table-bordered dt-responsive nowrap">
+                                        <thead>
+                                            <tr>
+                                                <th>Address</th>
+                                                <th>Phone</th>
+                                                <th>Mail</th>
+                                                <th>Image</th>
+                                                <th>Description</th>
+                                                <th>Status</th>
+                                                <th>Edit</th>
+                                            </tr>
+                                        </thead>
+
+                                        <tbody>
+
+
+                                            @foreach (var item in Model)
+                                            {
+                                                <tr>
+                                                    <td>@item.Adress1</td>
+                                                    <td>@item.Phone1</td>
+                                                    <td>@item.Mail1</td>
+                                                    <td><img src="~/Content/images/ContactPageImage/@item.Image" width="100"></td>
+
+                                                    <td>@item.Description</td>
+
+                                                    @{var status = item.Status == true ? "btn-success" : "btn-danger";}
+                                                    <td>
+
+                                                        <a href="~/ContactPage/ContactStatusEdit?id=@item.Id" class="btn @status">
+                                                            @item.Status
+                                                        </a>
+                                                    </td>
+                                                    <td>
+                                                        <a href="~/ContactPage/Edit?id=@item.Id" class="btn btn-success"><i class="mdi mdi-account-star"></i></a>
+
+                                                    </td>
+
+
+                                                </tr>
+                                            }
+
+                                        </tbody>
+                                    </table>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

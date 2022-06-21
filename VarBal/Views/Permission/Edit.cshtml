@@ -1,0 +1,66 @@
+﻿
+
+@using VarBal.Models;
+@model Permission
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/Admin_Layout.cshtml";
+}
+<div class="content-page">
+    <div class="content">
+
+        <!-- Start Content-->
+        <div class="container-fluid">
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="header-title">Edit Permission</h4>
+                            <p class="sub-header">
+                                Edit Permission
+                            </p>
+
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <form method="post" action="~/Permission/Edit">
+
+
+
+
+                                        <div class="mb-3">
+                                            <label class="form-label">Name</label>
+                                            <input type="text" class="form-control" id="Name" name="Name" value="@Model.Name" required>
+                                        </div>
+
+                                        <div class="form-check mb-2 form-check-success">
+                                            <input class="form-check-input" type="checkbox" checked="@Model.Status" value="true" id="Status" name="Status">
+                                            <label class="form-check-label" for="customckeck1">Status</label>
+                                        </div>
+                                        <input type="hidden" value="@Model.Id" name="Id" id="Id" />
+
+
+
+                                        <button class="btn btn-success" type="submit"> Edit</button>
+
+                                    </form>
+                                </div> <!-- end col -->
+                                <div class="col-md-6 text-center">
+                                    <h3>Edit Permission</h3>
+                                    <p>Please add your information accordingly</p>
+                                    <h4>@ViewBag.mesaj</h4>
+                                </div>
+                            </div>
+                            <!-- end row-->
+
+                        </div> <!-- end card-body -->
+                    </div> <!-- end card -->
+                </div><!-- end col -->
+            </div>
+            <!-- end row -->
+        </div>
+    </div>
+</div>
+
+
+

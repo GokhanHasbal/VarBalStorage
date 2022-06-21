@@ -1,0 +1,73 @@
+﻿@using VarBal.Models;
+@model Booking
+@{
+    Layout = "~/Views/Shared/Admin_Layout.cshtml";
+    DataContext db = new DataContext();
+    var warehouse = db.Warehouse.Where(x => x.Id == Model.WarehouseId).FirstOrDefault().Name;
+}
+
+<div class="content-page">
+    <div class="content">
+
+        <!-- Start Content-->
+        <div class="container-fluid">
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="header-title"><a href="~/Booking/">Booking List</a> - @Model.NameSurname</h4>
+
+
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="mb-3">
+                                        <table class="table">
+
+                                            <tr>
+                                                <th>Date</th>
+                                                <td>@Model.BookTime</td>
+                                            </tr>
+                                            <tr>
+                                                <th>User Name</th>
+                                                <td>@Model.NameSurname</td>
+                                            </tr>
+                                            <tr>
+                                                <th>Warehouse Name</th>
+                                                <td>@warehouse</td>
+                                            </tr>
+                                            <tr>
+                                                <th>Warehouse Size</th>
+                                                <td>@Model.Size</td>
+                                            </tr>
+                                            <tr>
+                                                <th>Note</th>
+                                                <td>@Model.Note</td>
+                                            </tr>
+
+
+                                        </table>
+                                    </div>
+                                    <form method="post" action="~/Booking/Detail">
+                                        <div class="form-check mb-2 form-check-success">
+                                            <input class="form-check-input" type="checkbox" value="true" id="Status" name="Status" checked="@Model.Status">
+                                            <label class="form-check-label" for="customckeck1">Status</label>
+                                        </div>
+                                        <input type="hidden" name="Id" id="Id" value="@Model.Id" />
+                                        <button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Status Change</button>
+                                        <a href="~/Booking/Delete?id=@Model.Id" class="btn btn-danger"><i class="fa fa-trash"></i> Delete</a>
+
+                                    </form>
+                                </div> <!-- end col -->
+
+                            </div>
+                            <!-- end row-->
+
+                        </div> <!-- end card-body -->
+                    </div> <!-- end card -->
+                </div><!-- end col -->
+            </div>
+            <!-- end row -->
+        </div>
+    </div>
+</div>

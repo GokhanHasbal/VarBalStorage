@@ -1,0 +1,281 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+
+    <meta charset="utf-8" />
+    <title>VarBal Storage System</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta content="Gök Has" name="author" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- App favicon -->
+    <link rel="shortcut icon" href="~/Content/Panel/assets/images/favicon.ico">
+
+    <!-- App css -->
+
+    <link href="~/Content/Panel/assets/css/app.min.css" rel="stylesheet" type="text/css" id="app-style" />
+    <!-- third party css -->
+    <link href="~/Content/Panel/assets/libs/datatables.net-bs5/css/dataTables.bootstrap5.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/Panel/assets/libs/datatables.net-responsive-bs5/css/responsive.bootstrap5.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/Panel/assets/libs/datatables.net-buttons-bs5/css/buttons.bootstrap5.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/Panel/assets/libs/datatables.net-select-bs5/css/select.bootstrap5.min.css" rel="stylesheet" type="text/css" />
+    <!-- third party css end -->
+    <!-- icons -->
+    <link href="~/Content/Panel/assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+    <!-- icons ends-->
+    <!-- summernote -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- summernote ends -->
+
+
+
+</head>
+
+<!-- body start -->
+<body class="loading" data-layout-color="dark" data-layout-mode="default" data-layout-size="fluid" data-topbar-color="light" data-leftbar-position="fixed" data-leftbar-color="dark" data-leftbar-size='default' data-sidebar-user='true'>
+
+    <!-- Begin page -->
+    <div id="wrapper">
+
+        @Html.Action("Sidebar", "Admin")
+
+        <!-- ========== Left Sidebar Start ========== -->
+        <div class="left-side-menu">
+
+            <div class="h-100" data-simplebar>
+
+
+
+                <!--- Sidemenu -->
+                <div class="row m-5"></div>
+                <div id="sidebar-menu" class="mt-5">
+
+                    <ul id="side-menu">
+
+
+
+                        <li>
+                            <a href="~/Admin">
+                                <i class="mdi mdi-view-dashboard-outline"></i>
+                                <span class="badge bg-success rounded-pill float-end">9+</span>
+                                <span> Dashboard </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="~/Slider">
+                                <i class="ti-layout-slider"></i>
+                                <span> Slider </span>
+                            </a>
+                        </li>
+
+
+                        <li>
+                            <a href="~/User">
+                                <i class="mdi mdi-account-multiple"></i>
+                                <span> Kullanıcılar </span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="~/Permission/">
+                                <i class="mdi mdi-account-star"></i>
+                                <span> Yetkiler </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="~/Warehouse/">
+                                <i class="mdi mdi-warehouse"></i>
+                                <span> Depolar </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="~/Product">
+                                <i class="fas fa-box"></i>
+                                <span> Ürünler </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="~/Category/">
+                                <i class="mdi mdi-folder-star"></i>
+                                <span> Kategoriler </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="~/Brand/">
+                                <i class="mdi mdi-flag"></i>
+                                <span> Markalar </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="~/Adress/">
+                                <i class="mdi mdi-map-marker-star-outline"></i>
+                                <span> Adresler </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="~/Shipment/">
+                                <i class="mdi mdi-car-lifted-pickup"></i>
+                                <span> Nakliyat </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="~/Vehicle/">
+                                <i class="mdi mdi-car-lifted-pickup"></i>
+                                <span> Araçlar </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="~/ContacUs/Index">
+                                <i class="mdi mdi-phone-incoming-outline"></i>
+                                <span> İletişim </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="~/ContactPage/">
+                                <i class="mdi mdi-phone-incoming-outline"></i>
+                                <span> İletişim Sayfası </span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="~/Contact">
+                                <i class="mdi mdi-email-edit"></i>
+                                <span> Bizden Haberdar Olun </span>
+                            </a>
+                        </li>
+
+
+
+
+                        <li>
+                            <a href="#sidebarForms" data-bs-toggle="collapse">
+                                <i class="mdi mdi-texture"></i>
+                                <span> Others </span>
+                                <span class="menu-arrow"></span>
+                            </a>
+                            <div class="collapse" id="sidebarForms">
+                                <ul class="nav-second-level">
+                                    <li>
+                                        <a href="#">
+                                            <i class="mdi mdi-archive"></i>
+                                            <span> Siparişler </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="mdi mdi-newspaper"></i>
+                                            <span> Faturalar </span>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#">
+                                            <i class="mdi mdi-page-layout-body"></i>
+                                            <span> Sayfalar </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="mdi mdi-chart-areaspline"></i>
+                                            <span> Seo </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="mdi mdi-email-edit-outline"></i>
+                                            <span> İletişim Mail </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="mdi mdi-email-multiple"></i>
+                                            <span> Mail Listesi </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="mdi mdi-typewriter"></i>
+                                            <span> Loglar </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li>
+                            <a href="~/Home/Index">
+                                <i class="mdi mdi-earth"></i>
+                                <span>HomePage </span>
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <!-- End Sidebar -->
+
+                <div class="clearfix"></div>
+
+            </div>
+            <!-- Sidebar -left -->
+
+        </div>
+        <!-- Left Sidebar End -->
+        <!-- ============================================================== -->
+
+        @RenderBody()
+
+
+
+
+    </div>
+    <!-- END wrapper -->
+    <!-- Vendor -->
+    <script src="~/Content/Panel/assets/libs/jquery/jquery.min.js"></script>
+    <script src="~/Content/Panel/assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="~/Content/Panel/assets/libs/simplebar/simplebar.min.js"></script>
+    <script src="~/Content/Panel/assets/libs/node-waves/waves.min.js"></script>
+    <script src="~/Content/Panel/assets/libs/waypoints/lib/jquery.waypoints.min.js"></script>
+    <script src="~/Content/Panel/assets/libs/jquery.counterup/jquery.counterup.min.js"></script>
+    <script src="~/Content/Panel/assets/libs/feather-icons/feather.min.js"></script>
+
+    <!-- knob plugin -->
+    <script src="~/Content/Panel/assets/libs/jquery-knob/jquery.knob.min.js"></script>
+
+    <!--Morris Chart-->
+    <script src="~/Content/Panel/assets/libs/morris.js06/morris.min.js"></script>
+    <script src="~/Content/Panel/assets/libs/raphael/raphael.min.js"></script>
+
+    <!-- Dashboar init js-->
+    <script src="~/Content/Panel/assets/js/pages/dashboard.init.js"></script>
+
+    <!-- App js-->
+    <script src="~/Content/Panel/assets/js/app.min.js"></script>
+    <!-- third party js -->
+    <script src="~/Content/Panel/assets/libs/datatables.net/js/jquery.dataTables.min.js"></script>
+    <script src="~/Content/Panel/assets/libs/datatables.net-bs5/js/dataTables.bootstrap5.min.js"></script>
+    <script src="~/Content/Panel/assets/libs/datatables.net-responsive/js/dataTables.responsive.min.js"></script>
+    <script src="~/Content/Panel/assets/libs/datatables.net-responsive-bs5/js/responsive.bootstrap5.min.js"></script>
+    <script src="~/Content/Panel/assets/libs/datatables.net-buttons/js/dataTables.buttons.min.js"></script>
+    <script src="~/Content/Panel/assets/libs/datatables.net-buttons-bs5/js/buttons.bootstrap5.min.js"></script>
+    <script src="~/Content/Panel/assets/libs/datatables.net-buttons/js/buttons.html5.min.js"></script>
+    <script src="~/Content/Panel/assets/libs/datatables.net-buttons/js/buttons.flash.min.js"></script>
+    <script src="~/Content/Panel/assets/libs/datatables.net-buttons/js/buttons.print.min.js"></script>
+    <script src="~/Content/Panel/assets/libs/datatables.net-keytable/js/dataTables.keyTable.min.js"></script>
+    <script src="~/Content/Panel/assets/libs/datatables.net-select/js/dataTables.select.min.js"></script>
+    <script src="~/Content/Panel/assets/libs/pdfmake/build/pdfmake.min.js"></script>
+    <script src="~/Content/Panel/assets/libs/pdfmake/build/vfs_fonts.js"></script>
+    <!-- third party js ends -->
+    <!-- Datatables init -->
+    <script src="~/Content/Panel/assets/js/pages/datatables.init.js"></script>
+    <!-- Datatables init end-->
+    <!-- summernote css/js -->
+    <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.js"></script>
+    <!-- summernote css/js ends -->
+
+
+</body>
+
+</html>

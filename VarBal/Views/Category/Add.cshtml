@@ -1,0 +1,70 @@
+﻿
+@{
+    ViewBag.Title = "Add";
+    Layout = "~/Views/Shared/Admin_Layout.cshtml";
+    int i = 0;
+}
+
+<div class="content-page">
+    <div class="content">
+
+        <!-- Start Content-->
+        <div class="container-fluid">
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="header-title">Category Add</h4>
+                            <p class="sub-header">
+                                Fill in fields to add a new category
+                            </p>
+
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <form method="post" action="~/Category/Add">
+
+                                        <div class="mb-3">
+                                            <label for="Name" class="form-label">Name</label>
+                                            <input type="text" id="Name" name="Name" class="form-control" required>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="Description" class="form-label">Description</label>
+                                            <textarea id="Description" name="Description" class="form-control" required rows="3"></textarea>
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <label class="form-label">Category</label>
+                                            <select class="form-control" name="MainCategoryId" id="MainCategoryId">
+                                                <option value="0">Non Sub Category</option>
+                                                @foreach (var item in ViewBag.category)
+                                                {
+                                                    <option value="@item.Id">@item.Name</option>
+                                                }
+                                            </select>
+
+                                        </div>
+                                        <div class="form-check mb-2 form-check-success">
+                                            <input class="form-check-input" type="checkbox" value="true" id="Status" name="Status" checked="">
+                                            <label class="form-check-label" for="customckeck1">Status</label>
+                                        </div>
+
+                                        <button class="btn btn-success" type="submit">Add New Category</button>
+                                    </form>
+                                </div> <!-- end col -->
+                                <div class="col-md-6 text-center">
+                                    <h3>Add New Category</h3>
+                                    <p>Please add your information accordingly</p>
+                                    <h2>@ViewBag.mesaj</h2>
+                                </div>
+                            </div>
+                            <!-- end row-->
+
+                        </div> <!-- end card-body -->
+                    </div> <!-- end card -->
+                </div><!-- end col -->
+            </div>
+            <!-- end row -->
+        </div>
+    </div>
+</div>

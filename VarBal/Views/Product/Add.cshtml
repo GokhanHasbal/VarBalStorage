@@ -1,0 +1,134 @@
+﻿@using VarBal.AdminModel;
+@model ProductModel
+@{
+    ViewBag.Title = "Add";
+    Layout = "~/Views/Shared/Admin_Layout.cshtml";
+}
+
+<div class="content-page">
+    <div class="content">
+
+        <!-- Start Content-->
+        <div class="container-fluid">
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="header-title">Product Add</h4>
+                            <p class="sub-header">
+                                Ürün Ekleme
+                            </p>
+
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <form method="post" action="~/Product/Add" enctype="multipart/form-data">
+
+                                        <div class="mb-3">
+                                            <label for="Name" class="form-label">Name</label>
+                                            <input type="text" id="Name" name="Name" class="form-control" required>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="Description" class="form-label">Description</label>
+                                            <textarea id="Description" name="Description" class="form-control" required></textarea>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="Price" class="form-label">Price</label>
+                                            <div class="row">
+                                                <div class="col-8">
+                                                    <input type="number" min="0" id="Price" name="Price" class="form-control" value="0" required>
+                                                </div>
+
+                                                <div class="col-4">
+                                                    <input type="number" min="0" max="99" id="SubPrice" name="SubPrice" class="form-control" value="00" required>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="Stock" class="form-label">Stock</label>
+                                            <input type="number" min="0" id="Stock" name="Stock" class="form-control" value="0" required>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="Tax" class="form-label">Tax</label>
+                                            <input type="number" min="0" max="20" id="Tax" step="0.1" name="Tax" class="form-control" value="0" required>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label class="form-label">Category</label>
+                                            <select class="form-control" name="CategoryId" id="CategoryId">
+                                                @foreach (var category in Model.Category)
+                                                {
+                                                    <option value="@category.Id" class="text-danger">@category.Name</option>
+                                                    <optgroup>
+                                                        @foreach (var subcategory in Model.SubCategory.Where(x => x.MainCategoryId == category.Id))
+                                                        {
+                                                            <option value="@subcategory.Id" class="text-success">@subcategory.Name</option>
+                                                        }
+                                                    </optgroup>
+                                                }
+                                            </select>
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <label class="form-label">Shelf</label>
+                                            <select class="form-control" name="ShelfId" id="ShelfId">
+                                                @foreach (var shelf in Model.Shelf)
+                                                {
+                                                    <option value="@shelf.Id" class="text-danger">@shelf.Name</option>
+                                                    <optgroup>
+                                                        @foreach (var subshelf in Model.SubShelf.Where(x => x.MainShelfId == shelf.Id))
+                                                        {
+                                                            <option value="@subshelf.Id" class="text-success">@subshelf.Name</option>
+                                                        }
+                                                    </optgroup>
+                                                }
+                                            </select>
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <label class="form-label">Brand</label>
+                                            <select class="form-control" name="BrandId" id="BrandId">
+
+                                                @foreach (var item in Model.Brand)
+                                                {
+                                                    <option value="@item.Id">@item.Name</option>
+                                                }
+                                            </select>
+                                        </div>      
+                                        <div class="mb-3">
+                                            <label class="form-label">Warehouse</label>
+                                            <select class="form-control" name="WarehouseId" id="WarehouseId">
+
+                                                @foreach (var item in Model.Warehouse)
+                                                {
+                                                    <option value="@item.Id">@item.Name</option>
+                                                }
+                                            </select>
+                                        </div>
+
+
+
+                                        <div class="form-check mb-2 form-check-success">
+                                            <input class="form-check-input" type="checkbox" value="true" id="Status" name="Status" checked="">
+                                            <label class="form-check-label" for="customckeck1">Status</label>
+                                        </div>
+
+                                        <button class="btn btn-success" type="submit">Add New Product</button>
+                                    </form>
+                                </div> <!-- end col -->
+
+                            </div>
+                            <!-- end row-->
+
+                        </div> <!-- end card-body -->
+                    </div> <!-- end card -->
+                </div><!-- end col -->
+            </div>
+            <!-- end row -->
+        </div>
+    </div>
+</div>
+<script>
+    $(document).ready(function () {
+        $('#Description').summernote({ height: 300 });
+    });
+</script>

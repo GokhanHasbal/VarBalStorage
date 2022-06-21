@@ -1,0 +1,575 @@
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\bin\VarBal.dll.config
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\bin\VarBal.dll
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\bin\VarBal.pdb
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\bin\roslyn\csc.exe
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\bin\roslyn\csc.exe.config
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\bin\roslyn\csc.rsp
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\bin\roslyn\csi.exe
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\bin\roslyn\csi.exe.config
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\bin\roslyn\csi.rsp
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\bin\roslyn\System.AppContext.dll
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\bin\roslyn\System.Console.dll
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\bin\roslyn\System.IO.Compression.dll
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\bin\roslyn\System.Net.Http.dll
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\bin\roslyn\System.Net.Sockets.dll
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\bin\roslyn\System.ValueTuple.dll
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\bin\roslyn\System.Xml.XPath.dll
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\bin\roslyn\vbc.exe
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\bin\roslyn\vbc.exe.config
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\bin\roslyn\vbc.rsp
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\bin\roslyn\VBCSCompiler.exe
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\bin\Antlr3.Runtime.dll
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\bin\EntityFramework.dll
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\bin\EntityFramework.SqlServer.dll
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\bin\Newtonsoft.Json.dll
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\bin\System.Web.Helpers.dll
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\bin\System.Web.Mvc.dll
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\bin\System.Web.Optimization.dll
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\bin\System.Web.Razor.dll
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\bin\System.Web.WebPages.Deployment.dll
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\bin\System.Web.WebPages.dll
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\bin\System.Web.WebPages.Razor.dll
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\bin\WebGrease.dll
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\bin\EntityFramework.xml
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\bin\EntityFramework.SqlServer.xml
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\bin\System.Web.Helpers.xml
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\bin\System.Web.Mvc.xml
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\bin\System.Web.Optimization.xml
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\bin\System.Web.Razor.xml
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\bin\System.Web.WebPages.xml
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\bin\System.Web.WebPages.Deployment.xml
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\bin\System.Web.WebPages.Razor.xml
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\bin\Newtonsoft.Json.xml
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\bin\Antlr3.Runtime.pdb
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\obj\Debug\VarBal.csproj.AssemblyReference.cache
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\obj\Debug\VarBal.csproj.CoreCompileInputs.cache
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\obj\Debug\VarBal.csproj.CopyComplete
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\obj\Debug\VarBal.dll
+C:\Users\PC336\Desktop\G\mvc\varbal\VarBal\VarBal\obj\Debug\VarBal.pdb
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\bin\VarBal.dll.config
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\bin\VarBal.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\bin\VarBal.pdb
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\bin\roslyn\csc.exe
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\bin\roslyn\csc.exe.config
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\bin\roslyn\csc.rsp
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\bin\roslyn\csi.exe
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\bin\roslyn\csi.exe.config
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\bin\roslyn\csi.rsp
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\bin\roslyn\System.AppContext.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\bin\roslyn\System.Console.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\bin\roslyn\System.IO.Compression.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\bin\roslyn\System.Net.Http.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\bin\roslyn\System.ValueTuple.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\bin\roslyn\vbc.exe
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\bin\roslyn\vbc.exe.config
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\bin\roslyn\vbc.rsp
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\bin\roslyn\VBCSCompiler.exe
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\bin\Antlr3.Runtime.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\bin\EntityFramework.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\bin\EntityFramework.SqlServer.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\bin\Newtonsoft.Json.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\bin\System.Web.Helpers.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\bin\System.Web.Mvc.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\bin\System.Web.Optimization.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\bin\System.Web.Razor.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\bin\System.Web.WebPages.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\bin\System.Web.WebPages.Razor.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\bin\WebGrease.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\bin\EntityFramework.xml
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\bin\EntityFramework.SqlServer.xml
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\bin\System.Web.Helpers.xml
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\bin\System.Web.Mvc.xml
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\bin\System.Web.Optimization.xml
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\bin\System.Web.Razor.xml
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\bin\System.Web.WebPages.xml
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\bin\System.Web.WebPages.Razor.xml
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\bin\Newtonsoft.Json.xml
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\bin\Antlr3.Runtime.pdb
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\obj\Debug\VarBal.csproj.AssemblyReference.cache
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\obj\Debug\VarBal.csproj.CoreCompileInputs.cache
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\obj\Debug\VarBal.csproj.CopyComplete
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\obj\Debug\VarBal.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\obj\Debug\VarBal.pdb
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\obj\Debug\VarBal.Migrations.vb1.resources
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\obj\Debug\VarBal.csproj.GenerateResource.cache
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\obj\Debug\VarBal.Migrations.vb2.resources
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\obj\Debug\VarBal.Migrations.vb3.resources
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\obj\Debug\VarBal.Migrations.vb4.resources
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\varbal\VarBal\VarBal\obj\Debug\VarBal.Migrations.vb5.resources
+C:\Users\Computer\Desktop\son\VarBal\VarBal\bin\VarBal.dll.config
+C:\Users\Computer\Desktop\son\VarBal\VarBal\bin\VarBal.dll
+C:\Users\Computer\Desktop\son\VarBal\VarBal\bin\VarBal.pdb
+C:\Users\Computer\Desktop\son\VarBal\VarBal\bin\roslyn\csc.exe
+C:\Users\Computer\Desktop\son\VarBal\VarBal\bin\roslyn\csc.exe.config
+C:\Users\Computer\Desktop\son\VarBal\VarBal\bin\roslyn\csc.rsp
+C:\Users\Computer\Desktop\son\VarBal\VarBal\bin\roslyn\csi.exe
+C:\Users\Computer\Desktop\son\VarBal\VarBal\bin\roslyn\csi.exe.config
+C:\Users\Computer\Desktop\son\VarBal\VarBal\bin\roslyn\csi.rsp
+C:\Users\Computer\Desktop\son\VarBal\VarBal\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Computer\Desktop\son\VarBal\VarBal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Computer\Desktop\son\VarBal\VarBal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Computer\Desktop\son\VarBal\VarBal\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Computer\Desktop\son\VarBal\VarBal\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Computer\Desktop\son\VarBal\VarBal\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Computer\Desktop\son\VarBal\VarBal\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Computer\Desktop\son\VarBal\VarBal\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Computer\Desktop\son\VarBal\VarBal\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Computer\Desktop\son\VarBal\VarBal\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Computer\Desktop\son\VarBal\VarBal\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Computer\Desktop\son\VarBal\VarBal\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Computer\Desktop\son\VarBal\VarBal\bin\roslyn\System.AppContext.dll
+C:\Users\Computer\Desktop\son\VarBal\VarBal\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Computer\Desktop\son\VarBal\VarBal\bin\roslyn\System.Console.dll
+C:\Users\Computer\Desktop\son\VarBal\VarBal\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Computer\Desktop\son\VarBal\VarBal\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Computer\Desktop\son\VarBal\VarBal\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Computer\Desktop\son\VarBal\VarBal\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Computer\Desktop\son\VarBal\VarBal\bin\roslyn\System.IO.Compression.dll
+C:\Users\Computer\Desktop\son\VarBal\VarBal\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Computer\Desktop\son\VarBal\VarBal\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Computer\Desktop\son\VarBal\VarBal\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Computer\Desktop\son\VarBal\VarBal\bin\roslyn\System.Net.Http.dll
+C:\Users\Computer\Desktop\son\VarBal\VarBal\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Computer\Desktop\son\VarBal\VarBal\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Computer\Desktop\son\VarBal\VarBal\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Computer\Desktop\son\VarBal\VarBal\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Computer\Desktop\son\VarBal\VarBal\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Computer\Desktop\son\VarBal\VarBal\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Computer\Desktop\son\VarBal\VarBal\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Computer\Desktop\son\VarBal\VarBal\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Computer\Desktop\son\VarBal\VarBal\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Computer\Desktop\son\VarBal\VarBal\bin\roslyn\System.ValueTuple.dll
+C:\Users\Computer\Desktop\son\VarBal\VarBal\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Computer\Desktop\son\VarBal\VarBal\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Computer\Desktop\son\VarBal\VarBal\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Computer\Desktop\son\VarBal\VarBal\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Computer\Desktop\son\VarBal\VarBal\bin\roslyn\vbc.exe
+C:\Users\Computer\Desktop\son\VarBal\VarBal\bin\roslyn\vbc.exe.config
+C:\Users\Computer\Desktop\son\VarBal\VarBal\bin\roslyn\vbc.rsp
+C:\Users\Computer\Desktop\son\VarBal\VarBal\bin\roslyn\VBCSCompiler.exe
+C:\Users\Computer\Desktop\son\VarBal\VarBal\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Computer\Desktop\son\VarBal\VarBal\bin\Antlr3.Runtime.dll
+C:\Users\Computer\Desktop\son\VarBal\VarBal\bin\EntityFramework.dll
+C:\Users\Computer\Desktop\son\VarBal\VarBal\bin\EntityFramework.SqlServer.dll
+C:\Users\Computer\Desktop\son\VarBal\VarBal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Computer\Desktop\son\VarBal\VarBal\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Computer\Desktop\son\VarBal\VarBal\bin\Newtonsoft.Json.dll
+C:\Users\Computer\Desktop\son\VarBal\VarBal\bin\System.Web.Helpers.dll
+C:\Users\Computer\Desktop\son\VarBal\VarBal\bin\System.Web.Mvc.dll
+C:\Users\Computer\Desktop\son\VarBal\VarBal\bin\System.Web.Optimization.dll
+C:\Users\Computer\Desktop\son\VarBal\VarBal\bin\System.Web.Razor.dll
+C:\Users\Computer\Desktop\son\VarBal\VarBal\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Computer\Desktop\son\VarBal\VarBal\bin\System.Web.WebPages.dll
+C:\Users\Computer\Desktop\son\VarBal\VarBal\bin\System.Web.WebPages.Razor.dll
+C:\Users\Computer\Desktop\son\VarBal\VarBal\bin\WebGrease.dll
+C:\Users\Computer\Desktop\son\VarBal\VarBal\bin\EntityFramework.xml
+C:\Users\Computer\Desktop\son\VarBal\VarBal\bin\EntityFramework.SqlServer.xml
+C:\Users\Computer\Desktop\son\VarBal\VarBal\bin\System.Web.Helpers.xml
+C:\Users\Computer\Desktop\son\VarBal\VarBal\bin\System.Web.Mvc.xml
+C:\Users\Computer\Desktop\son\VarBal\VarBal\bin\System.Web.Optimization.xml
+C:\Users\Computer\Desktop\son\VarBal\VarBal\bin\System.Web.Razor.xml
+C:\Users\Computer\Desktop\son\VarBal\VarBal\bin\System.Web.WebPages.xml
+C:\Users\Computer\Desktop\son\VarBal\VarBal\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Computer\Desktop\son\VarBal\VarBal\bin\System.Web.WebPages.Razor.xml
+C:\Users\Computer\Desktop\son\VarBal\VarBal\bin\Newtonsoft.Json.xml
+C:\Users\Computer\Desktop\son\VarBal\VarBal\bin\Antlr3.Runtime.pdb
+C:\Users\Computer\Desktop\son\VarBal\VarBal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Computer\Desktop\son\VarBal\VarBal\obj\Debug\VarBal.csproj.AssemblyReference.cache
+C:\Users\Computer\Desktop\son\VarBal\VarBal\obj\Debug\VarBal.Migrations.vb1.resources
+C:\Users\Computer\Desktop\son\VarBal\VarBal\obj\Debug\VarBal.Migrations.vb2.resources
+C:\Users\Computer\Desktop\son\VarBal\VarBal\obj\Debug\VarBal.Migrations.vb3.resources
+C:\Users\Computer\Desktop\son\VarBal\VarBal\obj\Debug\VarBal.Migrations.vb4.resources
+C:\Users\Computer\Desktop\son\VarBal\VarBal\obj\Debug\VarBal.Migrations.vb5.resources
+C:\Users\Computer\Desktop\son\VarBal\VarBal\obj\Debug\VarBal.csproj.GenerateResource.cache
+C:\Users\Computer\Desktop\son\VarBal\VarBal\obj\Debug\VarBal.csproj.CoreCompileInputs.cache
+C:\Users\Computer\Desktop\son\VarBal\VarBal\obj\Debug\VarBal.csproj.CopyComplete
+C:\Users\Computer\Desktop\son\VarBal\VarBal\obj\Debug\VarBal.dll
+C:\Users\Computer\Desktop\son\VarBal\VarBal\obj\Debug\VarBal.pdb
+C:\Users\Computer\Desktop\son\VarBal\VarBal\obj\Debug\VarBal.Migrations.vb6.resources
+C:\Users\Computer\Desktop\son\VarBal\VarBal\obj\Debug\VarBal.Migrations.vb7.resources
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\bin\VarBal.dll.config
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\bin\VarBal.dll
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\bin\VarBal.pdb
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\bin\roslyn\csc.exe
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\bin\roslyn\csc.exe.config
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\bin\roslyn\csc.rsp
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\bin\roslyn\csi.exe
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\bin\roslyn\csi.exe.config
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\bin\roslyn\csi.rsp
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\bin\roslyn\System.AppContext.dll
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\bin\roslyn\System.Console.dll
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\bin\roslyn\System.IO.Compression.dll
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\bin\roslyn\System.Net.Http.dll
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\bin\roslyn\System.ValueTuple.dll
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\bin\roslyn\vbc.exe
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\bin\roslyn\vbc.exe.config
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\bin\roslyn\vbc.rsp
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\bin\roslyn\VBCSCompiler.exe
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\bin\Antlr3.Runtime.dll
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\bin\EntityFramework.dll
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\bin\EntityFramework.SqlServer.dll
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\bin\Newtonsoft.Json.dll
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\bin\System.Web.Helpers.dll
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\bin\System.Web.Mvc.dll
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\bin\System.Web.Optimization.dll
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\bin\System.Web.Razor.dll
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\bin\System.Web.WebPages.dll
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\bin\System.Web.WebPages.Razor.dll
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\bin\WebGrease.dll
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\bin\EntityFramework.xml
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\bin\EntityFramework.SqlServer.xml
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\bin\System.Web.Helpers.xml
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\bin\System.Web.Mvc.xml
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\bin\System.Web.Optimization.xml
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\bin\System.Web.Razor.xml
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\bin\System.Web.WebPages.xml
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\bin\System.Web.WebPages.Razor.xml
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\bin\Newtonsoft.Json.xml
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\bin\Antlr3.Runtime.pdb
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\obj\Debug\VarBal.csproj.AssemblyReference.cache
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\obj\Debug\VarBal.Migrations.vb1.resources
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\obj\Debug\VarBal.Migrations.vb2.resources
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\obj\Debug\VarBal.Migrations.vb3.resources
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\obj\Debug\VarBal.Migrations.vb4.resources
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\obj\Debug\VarBal.Migrations.vb5.resources
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\obj\Debug\VarBal.Migrations.vb6.resources
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\obj\Debug\VarBal.Migrations.vb7.resources
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\obj\Debug\VarBal.csproj.GenerateResource.cache
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\obj\Debug\VarBal.csproj.CoreCompileInputs.cache
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\obj\Debug\VarBal.csproj.CopyComplete
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\obj\Debug\VarBal.dll
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\obj\Debug\VarBal.pdb
+C:\Users\Sezer VAROL\Downloads\son\son\VarBal\VarBal\obj\Debug\VarBal.Migrations.vb8.resources
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\bin\VarBal.dll.config
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\bin\VarBal.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\bin\VarBal.pdb
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\bin\roslyn\csc.exe
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\bin\roslyn\csc.exe.config
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\bin\roslyn\csc.rsp
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\bin\roslyn\csi.exe
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\bin\roslyn\csi.exe.config
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\bin\roslyn\csi.rsp
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\bin\roslyn\System.AppContext.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\bin\roslyn\System.Console.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\bin\roslyn\System.IO.Compression.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\bin\roslyn\System.Net.Http.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\bin\roslyn\System.ValueTuple.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\bin\roslyn\vbc.exe
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\bin\roslyn\vbc.exe.config
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\bin\roslyn\vbc.rsp
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\bin\roslyn\VBCSCompiler.exe
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\bin\Antlr3.Runtime.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\bin\EntityFramework.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\bin\EntityFramework.SqlServer.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\bin\Newtonsoft.Json.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\bin\System.Web.Helpers.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\bin\System.Web.Mvc.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\bin\System.Web.Optimization.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\bin\System.Web.Razor.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\bin\System.Web.WebPages.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\bin\System.Web.WebPages.Razor.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\bin\WebGrease.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\bin\EntityFramework.xml
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\bin\EntityFramework.SqlServer.xml
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\bin\System.Web.Helpers.xml
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\bin\System.Web.Mvc.xml
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\bin\System.Web.Optimization.xml
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\bin\System.Web.Razor.xml
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\bin\System.Web.WebPages.xml
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\bin\System.Web.WebPages.Razor.xml
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\bin\Newtonsoft.Json.xml
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\bin\Antlr3.Runtime.pdb
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\obj\Debug\VarBal.csproj.AssemblyReference.cache
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\obj\Debug\VarBal.Migrations.vb1.resources
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\obj\Debug\VarBal.Migrations.vb2.resources
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\obj\Debug\VarBal.Migrations.vb3.resources
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\obj\Debug\VarBal.Migrations.vb4.resources
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\obj\Debug\VarBal.Migrations.vb5.resources
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\obj\Debug\VarBal.Migrations.vb6.resources
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\obj\Debug\VarBal.Migrations.vb7.resources
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\obj\Debug\VarBal.Migrations.vb8.resources
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\obj\Debug\VarBal.csproj.GenerateResource.cache
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\obj\Debug\VarBal.csproj.CoreCompileInputs.cache
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\obj\Debug\VarBal.csproj.CopyComplete
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\obj\Debug\VarBal.dll
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\obj\Debug\VarBal.pdb
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\obj\Debug\VarBal.Migrations.vb9.resources
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\obj\Debug\VarBal.Migrations.vb10.resources
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\obj\Debug\VarBal.Migrations.vb11.resources
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\obj\Debug\VarBal.Migrations.contactus.resources
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\obj\Debug\VarBal.Migrations.contactus1.resources
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\obj\Debug\VarBal.Migrations.salman.resources
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\obj\Debug\VarBal.Migrations.stıorage.resources
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\obj\Debug\VarBal.Migrations.vb14.resources
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\obj\Debug\VarBal.Migrations.shipment.resources
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\obj\Debug\VarBal.Migrations.shipment2.resources
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\obj\Debug\VarBal.Migrations.shipment3.resources
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\obj\Debug\VarBal.Migrations.shipment4.resources
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\obj\Debug\VarBal.Migrations.booking.resources
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\obj\Debug\VarBal.Migrations.booking2.resources
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\obj\Debug\VarBal.Migrations.book.resources
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\obj\Debug\VarBal.Migrations.shipship.resources
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\obj\Debug\VarBal.Migrations.son.resources
+C:\Users\Sezer VAROL\OneDrive\Masaüstü\sezer_gokhan\son\son\VarBal\VarBal\obj\Debug\VarBal.Migrations.son1.resources
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\bin\VarBal.dll.config
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\bin\VarBal.dll
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\bin\VarBal.pdb
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\bin\roslyn\csc.exe
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\bin\roslyn\csc.exe.config
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\bin\roslyn\csc.rsp
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\bin\roslyn\csi.exe
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\bin\roslyn\csi.exe.config
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\bin\roslyn\csi.rsp
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\bin\roslyn\System.AppContext.dll
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\bin\roslyn\System.Console.dll
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\bin\roslyn\System.IO.Compression.dll
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\bin\roslyn\System.Net.Http.dll
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\bin\roslyn\System.ValueTuple.dll
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\bin\roslyn\vbc.exe
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\bin\roslyn\vbc.exe.config
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\bin\roslyn\vbc.rsp
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\bin\roslyn\VBCSCompiler.exe
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\bin\Antlr3.Runtime.dll
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\bin\EntityFramework.dll
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\bin\EntityFramework.SqlServer.dll
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\bin\Newtonsoft.Json.dll
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\bin\System.Web.Helpers.dll
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\bin\System.Web.Mvc.dll
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\bin\System.Web.Optimization.dll
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\bin\System.Web.Razor.dll
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\bin\System.Web.WebPages.dll
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\bin\System.Web.WebPages.Razor.dll
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\bin\WebGrease.dll
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\bin\EntityFramework.xml
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\bin\EntityFramework.SqlServer.xml
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\bin\System.Web.Helpers.xml
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\bin\System.Web.Mvc.xml
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\bin\System.Web.Optimization.xml
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\bin\System.Web.Razor.xml
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\bin\System.Web.WebPages.xml
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\bin\System.Web.WebPages.Razor.xml
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\bin\Newtonsoft.Json.xml
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\bin\Antlr3.Runtime.pdb
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\obj\Debug\VarBal.csproj.AssemblyReference.cache
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\obj\Debug\VarBal.Migrations.vb1.resources
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\obj\Debug\VarBal.Migrations.vb2.resources
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\obj\Debug\VarBal.Migrations.vb3.resources
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\obj\Debug\VarBal.Migrations.vb4.resources
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\obj\Debug\VarBal.Migrations.vb5.resources
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\obj\Debug\VarBal.Migrations.vb6.resources
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\obj\Debug\VarBal.Migrations.vb7.resources
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\obj\Debug\VarBal.Migrations.vb8.resources
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\obj\Debug\VarBal.Migrations.vb9.resources
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\obj\Debug\VarBal.Migrations.vb10.resources
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\obj\Debug\VarBal.Migrations.vb11.resources
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\obj\Debug\VarBal.Migrations.contactus.resources
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\obj\Debug\VarBal.Migrations.contactus1.resources
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\obj\Debug\VarBal.Migrations.salman.resources
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\obj\Debug\VarBal.Migrations.stıorage.resources
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\obj\Debug\VarBal.Migrations.vb14.resources
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\obj\Debug\VarBal.Migrations.shipment.resources
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\obj\Debug\VarBal.Migrations.shipment2.resources
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\obj\Debug\VarBal.Migrations.shipment3.resources
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\obj\Debug\VarBal.Migrations.shipment4.resources
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\obj\Debug\VarBal.Migrations.booking.resources
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\obj\Debug\VarBal.Migrations.booking2.resources
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\obj\Debug\VarBal.Migrations.book.resources
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\obj\Debug\VarBal.Migrations.shipship.resources
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\obj\Debug\VarBal.Migrations.son.resources
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\obj\Debug\VarBal.Migrations.son1.resources
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\obj\Debug\VarBal.csproj.GenerateResource.cache
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\obj\Debug\VarBal.csproj.CoreCompileInputs.cache
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\obj\Debug\VarBal.csproj.CopyComplete
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\obj\Debug\VarBal.dll
+C:\Users\Computer\Desktop\son\son\VarBal\VarBal\obj\Debug\VarBal.pdb

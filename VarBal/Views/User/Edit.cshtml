@@ -1,0 +1,108 @@
+﻿@using VarBal.Models;
+@model User
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/Admin_Layout.cshtml";
+    var image = string.IsNullOrEmpty(Model.Image) ? "default-user.png" : Model.Image;
+
+}
+
+<div class="content-page">
+    <div class="content">
+
+        <!-- Start Content-->
+        <div class="container-fluid">
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="header-title">Update</h4>
+                            <p class="sub-header">
+                                Please update your information accordingly
+                            </p>
+                            <form method="post" action="~/User/Edit" enctype="multipart/form-data">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label class="form-label">Email</label>
+                                            <input type="email" class="form-control" name="Email" id="Email" required value="@Model.Email">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label class="form-label">User Name</label>
+                                            <input type="text" class="form-control" name="Username" id="Username" required value="@Model.Username">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label class="form-label">Name</label>
+                                            <input type="text" class="form-control" id="Name" name="Name" required value="@Model.Name">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label class="form-label">Surname</label>
+                                            <input type="text" class="form-control" id="Surname" name="Surname" required value="@Model.Surname">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label class="form-label">Phone</label>
+                                            <input type="text" class="form-control" id="Phone" name="Phone" required value="@Model.Phone">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label class="form-label">Permission</label>
+                                            <select class="form-control" name="PermissionId" id="PermissionId">
+                                                <option value="@Model.PermissionId">@Model.Permission.Name</option>
+                                                <optgroup label="Permissions">
+                                                    @foreach (var item in ViewBag.permission)
+                                                    {
+                                                        <option value="@item.Id">@item.Name</option>
+                                                    }
+                                                </optgroup>
+                                            </select>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="Password" class="form-label">Password</label>
+                                            <div class="input-group input-group-merge">
+                                                <input type="password" min="0" max="5000" id="Password" name="Password" class="form-control" value="@Model.Password" required>
+                                                <div class="input-group-text" data-password="false">
+                                                    <span class="password-eye"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-check mb-2 form-check-primary">
+                                            <input class="form-check-input" type="checkbox" value="@Model.Status" id="Status" name="Status" checked="" />
+                                            <label class="form-check-label" for="customcheck1">Status</label>
+                                        </div>
+
+                                        <button class="btn btn-success" type="submit"> Update</button>
+
+                                    </div> <!-- end col -->
+                                    <div class="col-md-6 text-center">
+                                        <h3>Update Your Account</h3>
+                                        <p>Please update your information accordingly</p>
+
+                                        <h3>User Profile Image</h3>
+                                        <div class="col-md-7 text-center">
+                                            <img src="~/Content/images/UserImage/@image" width="50%" class="rounded-circle mt-3" />
+                                            <br />
+                                            <div class="input-group mt-3 p-4">
+                                                <div class="input-group">
+                                                    <input type="file" class="form-control" name="Image" id="Image" />
+                                                </div>
+                                            </div>
+                                            <input type="hidden" value="@Model.Id" name="Id" id="Id" />
+                                            <h2>@ViewBag.mesaj</h2>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+
+                            <!-- end row-->
+
+                        </div> <!-- end card-body -->
+                    </div> <!-- end card -->
+                </div><!-- end col -->
+            </div>
+            <!-- end row -->
+        </div>
+    </div>
+</div>
+

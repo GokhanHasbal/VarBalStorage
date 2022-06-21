@@ -1,0 +1,48 @@
+﻿@using VarBal.AdminModel;
+@model List<Slider>
+@{
+    ViewBag.Title = "Slider";
+    var i = 0;
+}
+
+<a href="~/Admin/SliderInsert" class="btn btn-success" style="float:right">
+    <i class="fa fa-image"></i>
+    Slider Add
+</a>
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>No</th>
+            <th>Image</th>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Link</th>
+            <th>State</th>
+            <th>Setting</th>
+        </tr>
+
+    </thead>
+    <tbody>
+        @foreach (var slider in Model)
+        {
+            i++;
+            <tr>
+                <td>@i</td>
+                <td><img src="../SliderImage/@slider.Image" width="100"></td>
+                <td>@slider.Title</td>
+                <td>@slider.Description</td>
+                <td>@slider.Link</td>
+                
+                <td>
+                    <a href="~/Home/SliderEdit?id=@slider.Id" class="btn btn-success"><i class="fa fa-wrench"></i>Edit</a>
+                </td>
+                <td>
+
+                    <a href="~/Home/SliderDelete?id=@slider.Id" class="btn btn-danger"><i class="fa fa-trash"></i>Delete</a>
+
+                </td>
+            </tr>
+        }
+    </tbody>
+
+</table>

@@ -1,0 +1,444 @@
+﻿@using VarBal.AdminModel;
+@model FacilityModel
+@{
+    ViewBag.Title = "Facility";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.LocationActive = "current-menu-item current_page_item";
+
+}
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+    <title>New York – StoreUp</title>
+    <meta name="robots" content="max-image-preview:large">
+    <link rel="dns-prefetch" href="//maps.googleapis.com">
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="dns-prefetch" href="//s.w.org">
+    <link rel="alternate" type="application/rss+xml" title="StoreUp » Feed" href="https://www.aivahthemes.com/wp/storeup/feed/">
+    <link rel="alternate" type="application/rss+xml" title="StoreUp » Comments Feed" href="https://www.aivahthemes.com/wp/storeup/comments/feed/">
+    <link rel="alternate" type="application/rss+xml" title="StoreUp » New York city Feed" href="https://www.aivahthemes.com/wp/storeup/?cities=new-york/feed/">
+    <div class="fit-vids-style">
+        ­
+        <style>
+            .fluid-width-video-wrapper {
+                width: 100%;
+                position: relative;
+                padding: 0;
+            }
+
+                .fluid-width-video-wrapper iframe, .fluid-width-video-wrapper object, .fluid-width-video-wrapper embed {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                }
+        </style>
+    </div>
+    <script type="text/javascript">
+        window._wpemojiSettings = { "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/72x72\/", "ext": ".png", "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/svg\/", "svgExt": ".svg", "source": { "concatemoji": "https:\/\/www.aivahthemes.com\/wp\/storeup\/wp-includes\/js\/wp-emoji-release.min.js?ver=504b80dfe2e4865f6060c36faa551620" } };
+        !function (e, a, t) { var n, r, o, i = a.createElement("canvas"), p = i.getContext && i.getContext("2d"); function s(e, t) { var a = String.fromCharCode; p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, e), 0, 0); e = i.toDataURL(); return p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, t), 0, 0), e === i.toDataURL() } function c(e) { var t = a.createElement("script"); t.src = e, t.defer = t.type = "text/javascript", a.getElementsByTagName("head")[0].appendChild(t) } for (o = Array("flag", "emoji"), t.supports = { everything: !0, everythingExceptFlag: !0 }, r = 0; r < o.length; r++)t.supports[o[r]] = function (e) { if (!p || !p.fillText) return !1; switch (p.textBaseline = "top", p.font = "600 32px Arial", e) { case "flag": return s([127987, 65039, 8205, 9895, 65039], [127987, 65039, 8203, 9895, 65039]) ? !1 : !s([55356, 56826, 55356, 56819], [55356, 56826, 8203, 55356, 56819]) && !s([55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447], [55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447]); case "emoji": return !s([10084, 65039, 8205, 55357, 56613], [10084, 65039, 8203, 55357, 56613]) }return !1 }(o[r]), t.supports.everything = t.supports.everything && t.supports[o[r]], "flag" !== o[r] && (t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && t.supports[o[r]]); t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && !t.supports.flag, t.DOMReady = !1, t.readyCallback = function () { t.DOMReady = !0 }, t.supports.everything || (n = function () { t.readyCallback() }, a.addEventListener ? (a.addEventListener("DOMContentLoaded", n, !1), e.addEventListener("load", n, !1)) : (e.attachEvent("onload", n), a.attachEvent("onreadystatechange", function () { "complete" === a.readyState && t.readyCallback() })), (n = t.source || {}).concatemoji ? c(n.concatemoji) : n.wpemoji && n.twemoji && (c(n.twemoji), c(n.wpemoji))) }(window, document, window._wpemojiSettings);
+    </script>
+    <script src="https://www.aivahthemes.com/wp/storeup/wp-includes/js/wp-emoji-release.min.js?ver=504b80dfe2e4865f6060c36faa551620" type="text/javascript" defer=""></script>
+    <style type="text/css">
+        img.wp-smiley,
+        img.emoji {
+            display: inline !important;
+            border: none !important;
+            box-shadow: none !important;
+            height: 1em !important;
+            width: 1em !important;
+            margin: 0 .07em !important;
+            vertical-align: -0.1em !important;
+            background: none !important;
+            padding: 0 !important;
+        }
+    </style>
+    <link rel="stylesheet" id="wp-block-library-css" href="https://www.aivahthemes.com/wp/storeup/wp-includes/css/dist/block-library/style.min.css?ver=504b80dfe2e4865f6060c36faa551620" type="text/css" media="all">
+    <link rel="stylesheet" id="wc-blocks-vendors-style-css" href="https://www.aivahthemes.com/wp/storeup/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-vendors-style.css?ver=7.4.3" type="text/css" media="all">
+    <link rel="stylesheet" id="wc-blocks-style-css" href="https://www.aivahthemes.com/wp/storeup/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-style.css?ver=7.4.3" type="text/css" media="all">
+    <link rel="stylesheet" id="contact-form-7-css" href="https://www.aivahthemes.com/wp/storeup/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.5.6.1" type="text/css" media="all">
+    <link rel="stylesheet" id="storeup-sc-animation-css" href="https://www.aivahthemes.com/wp/storeup/wp-content/plugins/storeup-core/storeup-shortcodes/css/frontend/animate.css?ver=1" type="text/css" media="1">
+    <link rel="stylesheet" id="font-awesome-css" href="https://www.aivahthemes.com/wp/storeup/wp-content/themes/storeup/css/fontawesome/css/font-awesome.css?ver=504b80dfe2e4865f6060c36faa551620" type="text/css" media="all">
+    <link rel="stylesheet" id="at-font-awesome-css" href="https://www.aivahthemes.com/wp/storeup/wp-content/plugins/storeup-core/storeup-shortcodes/css/fontawesome/css/font-awesome.css?ver=1" type="text/css" media="all">
+    <link rel="stylesheet" id="storeup-sc-shortcodes-css" href="https://www.aivahthemes.com/wp/storeup/wp-content/plugins/storeup-core/storeup-shortcodes/css/frontend/plugin_shortcodes.css?ver=null" type="text/css" media="all">
+    <link rel="stylesheet" id="woocommerce-layout-css" href="https://www.aivahthemes.com/wp/storeup/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=6.5.1" type="text/css" media="all">
+    <link rel="stylesheet" id="woocommerce-smallscreen-css" href="https://www.aivahthemes.com/wp/storeup/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=6.5.1" type="text/css" media="only screen and (max-width: 768px)">
+    <link rel="stylesheet" id="woocommerce-general-css" href="https://www.aivahthemes.com/wp/storeup/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=6.5.1" type="text/css" media="all">
+    <style id="woocommerce-inline-inline-css" type="text/css">
+        .woocommerce form .form-row .required {
+            visibility: visible;
+        }
+    </style>
+    <link rel="stylesheet" id="storeup-theme-css" href="https://www.aivahthemes.com/wp/storeup/wp-content/themes/storeup/style.css?ver=504b80dfe2e4865f6060c36faa551620" type="text/css" media="all">
+    <link rel="stylesheet" id="fontello-css" href="https://www.aivahthemes.com/wp/storeup/wp-content/themes/storeup/css/fontello/css/aicon_.css?ver=504b80dfe2e4865f6060c36faa551620" type="text/css" media="all">
+    <link rel="stylesheet" id="fontello-animation-css" href="https://www.aivahthemes.com/wp/storeup/wp-content/themes/storeup/css/fontello/css/animation.css?ver=504b80dfe2e4865f6060c36faa551620" type="text/css" media="all">
+    <link rel="stylesheet" id="pe-icon-7-stroke-css" href="https://www.aivahthemes.com/wp/storeup/wp-content/themes/storeup/css/pe-icon-7-stroke/css/pe-icon-7-stroke.css?ver=504b80dfe2e4865f6060c36faa551620" type="text/css" media="all">
+    <link rel="stylesheet" id="storeup-niche-style-css" href="https://www.aivahthemes.com/wp/storeup/wp-content/themes/storeup/storeup-niche/css/storeup-style.css?ver=504b80dfe2e4865f6060c36faa551620" type="text/css" media="all">
+    <link rel="stylesheet" id="storeup-responsive-css" href="https://www.aivahthemes.com/wp/storeup/wp-content/themes/storeup/css/responsive.css?ver=5.0" type="text/css" media="all">
+    <style id="storeup-responsive-inline-css" type="text/css">
+
+        h1#site-title a {
+            font-size:;
+            color:;
+            line-height:;
+            font-style:;
+            font-weight:;
+        }
+
+        h2#site-description {
+            font-size:;
+            color:;
+            line-height:;
+            font-style:;
+            font-weight:;
+        }
+
+        .storeup_page_loader {
+            background-image: url( https://www.aivahthemes.com/wp/storeup/wp-content/themes/storeup/images/svg-loaders/audio.svg);
+        }
+
+        .header {
+            background-image: url( );
+            background-position: center top;
+            background-color:;
+            background-attachment: scroll;
+        }
+
+        body {
+            background-image: url( http://www.aivahthemes.com/wp/storeup/wp-content/uploads/sites/6/2020/01/apple-1284085_1920.jpg );
+            background-position: center center;
+            background-color: #5b5b5b;
+            background-attachment: fixed;
+        }
+
+        body {
+            background-image: url( );
+            background-repeat:;
+            background-position:;
+            background-color:;
+            background-attachment:;
+        }
+
+        #subheader {
+            background-image: url( http://www.aivahthemes.com/wp/storeup/wp-content/uploads/sites/6/2016/09/subheader_storeup.jpg );
+            background-position: center top;
+            background-color:;
+            background-attachment: scroll;
+        }
+
+        body {
+            font-family: "Lato";
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: "Poppins";
+        }
+
+        .sf-menu {
+            font-family: "Lato";
+        }
+
+        .countdown-amount,
+        .countdown-section {
+            font-family: "Kalam";
+        }
+
+        body,
+        input,
+        select,
+        textarea {
+            font-size: 16px;
+            color:;
+            line-height:;
+            font-style:;
+            font-weight:;
+        }
+
+        h1 {
+            font-size:;
+            color:;
+            line-height:;
+            font-style:;
+            font-weight: 800;
+        }
+
+        h2 {
+            font-size:;
+            color:;
+            line-height:;
+            font-style:;
+            font-weight: 800;
+        }
+
+        h3 {
+            font-size:;
+            color:;
+            line-height:;
+            font-style:;
+            font-weight: 600;
+        }
+
+        h4 {
+            font-size:;
+            color:;
+            line-height:;
+            font-style:;
+            font-weight: 400;
+        }
+
+        h5 {
+            font-size:;
+            color:;
+            line-height:;
+            font-style:;
+            font-weight: 400;
+        }
+
+        h6 {
+            font-size:;
+            color:;
+            line-height:;
+            font-style:;
+            font-weight:;
+        }
+
+        .widget-title {
+            font-size:;
+            color:;
+            line-height:;
+            font-style:;
+            font-weight:;
+        }
+
+        #footer .widget-title {
+            font-size:;
+            color:;
+            line-height:;
+            font-style:;
+            font-weight:;
+        }
+
+        #footer {
+            font-size:;
+            color:;
+            line-height:;
+            font-style:;
+            font-weight:;
+        }
+
+        .copyright {
+            font-size:;
+            color:;
+            line-height:;
+            font-style:;
+            font-weight:;
+        }
+
+        .footer-area-middle {
+            background-image: url( );
+            background-position: center center;
+            background-color:;
+            background-attachment: fixed;
+        }
+
+        .sf-menu a,
+        .header-style3 .sf-menu > li > a {
+            font-size:;
+            color:;
+            line-height:;
+            font-style:;
+            font-weight:;
+        }
+
+        .subheader_bg_image,
+        .header_section_bg {
+            background-image: url( );
+            background-repeat: repeat;
+            background-position: left top;
+            background-color:;
+            background-attachment: scroll;
+        }
+    </style>
+    <link rel="stylesheet" id="storeup_google_fonts-css" href="//fonts.googleapis.com/css?family=Lato:100,100italic,300,300italic,400,400italic,700,700italic,900,900italic%7cPoppins:300,400,500,600,700%7cLato:100,100italic,300,300italic,400,400italic,700,700italic,900,900italic%7cKalam:300,400,700" type="text/css" media="all">
+    <link rel="stylesheet" id="storeup-wc-css-css" href="https://www.aivahthemes.com/wp/storeup/wp-content/themes/storeup/woocommerce/assets/css/woocommerce.css?ver=504b80dfe2e4865f6060c36faa551620" type="text/css" media="all">
+    <link rel="stylesheet" id="js_composer_front-css" href="https://www.aivahthemes.com/wp/storeup/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=6.5.0" type="text/css" media="all">
+    <script type="text/javascript" src="https://www.aivahthemes.com/wp/storeup/wp-includes/js/jquery/jquery.min.js?ver=3.6.0" id="jquery-core-js"></script>
+    <script type="text/javascript" src="https://www.aivahthemes.com/wp/storeup/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2" id="jquery-migrate-js"></script>
+    <script type="text/javascript" src="https://www.aivahthemes.com/wp/storeup/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.6.5.1" id="jquery-blockui-js"></script>
+    <script type="text/javascript" id="wc-add-to-cart-js-extra">
+        /* <![CDATA[ */
+        var wc_add_to_cart_params = { "ajax_url": "\/wp\/storeup\/wp-admin\/admin-ajax.php", "wc_ajax_url": "\/wp\/storeup\/?wc-ajax=%%endpoint%%", "i18n_view_cart": "View cart", "cart_url": "https:\/\/www.aivahthemes.com\/wp\/storeup\/cart\/", "is_cart": "", "cart_redirect_after_add": "no" };
+        /* ]]> */
+    </script>
+    <script type="text/javascript" src="https://www.aivahthemes.com/wp/storeup/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=6.5.1" id="wc-add-to-cart-js"></script>
+    <script type="text/javascript" src="https://www.aivahthemes.com/wp/storeup/wp-content/plugins/js_composer/assets/js/vendors/woocommerce-add-to-cart.js?ver=6.5.0" id="vc_woocommerce-add-to-cart-js-js"></script>
+    <script type="text/javascript" src="//maps.googleapis.com/maps/api/js?v=3.exp&amp;key=AIzaSyCeL8qZPfxKX3fchEurJagfbRKNTDemWh4&amp;libraries=places&amp;ver=504b80dfe2e4865f6060c36faa551620" id="storeup-gmap-js"></script>
+    <script type="text/javascript" src="https://www.aivahthemes.com/wp/storeup/wp-content/themes/storeup/storeup-niche/js/frontend_map.js?ver=504b80dfe2e4865f6060c36faa551620" id="storeup_loc_map-js"></script>
+    <link rel="https://api.w.org/" href="https://www.aivahthemes.com/wp/storeup/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.aivahthemes.com/wp/storeup/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.aivahthemes.com/wp/storeup/wp-includes/wlwmanifest.xml">
+
+    <link rel="pingback" href="https://www.aivahthemes.com/wp/storeup/xmlrpc.php">
+    <noscript>
+        <style>
+            .woocommerce-product-gallery {
+                opacity: 1 !important;
+            }
+        </style>
+    </noscript>
+    <meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress.">
+    <noscript>
+        <style>
+            .wpb_animate_when_almost_visible {
+                opacity: 1;
+            }
+        </style>
+    </noscript>
+    <script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/49/2/intl/tr_ALL/common.js"></script>
+    <script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/49/2/intl/tr_ALL/util.js"></script>
+</head>
+
+<body class="archive tax-cities term-virginia term-9 theme-storeup woocommerce-js rightsidebar  stretched wpb-js-composer js-comp-ver-6.5.0 vc_responsive" _c_t_common="1">
+    <div class="storeup_page_loaders"><span class="storeup_blink_me"></span></div>	<div class="bodyoverlay"></div>
+
+
+    <div id="wrapper">
+
+
+        <div id="main">
+
+            <div id="primary" class="pagemid">
+                <div class="inner">
+                    <main class="content-area">
+                        <div class="entry-content-wrapper clearfix">
+                            <h3 class="at-city-list-title">We have @Model.Warehouse.Count facility near you!</h3>
+                            <div class="at-city-list">
+                                @foreach (var warehouse in Model.Warehouse)
+                                {
+                                    <div class="at-city-thumb">
+                                        <img alt="Virginia Beach Storage"
+                                             src="~/Content/images/WarehouseImage/@warehouse.Image" width="120" height="80">
+                                    </div>
+                                    <div class="at-city-details">
+                                        <span class="at-city-title">
+                                            <a href="~/Home/FacilityDetail?id=@warehouse.Id" rel="bookmark" title="Virginia Beach Storage"> Varbal Storage - @warehouse.Description </a>
+                                        </span>
+                                        <div class="at-city-addr">
+                                            <span>
+
+                                                @warehouse.Address.Where(x=>x.WarehouseId==warehouse.Id).FirstOrDefault().FullAddress
+                                            </span>
+                                        </div>
+                                        <div class="at-city-phno">
+                                            <i class="fa fa-phone fa-fw"> </i><span>@warehouse.Phone</span>
+                                        </div>
+                                    </div>
+                                    <div class="at-city-more">
+                                        <a href="~/Home/FacilityDetail?id=@warehouse.Id" class="btn medium border rounded dark" style="background-color: transparent;">
+                                            <span>Click Here to View Detail</span>
+                                        </a>
+                                    </div>
+
+                                }
+
+
+                            </div>
+                        </div><!-- .entry-content-wrapper-->
+                    </main><!-- .content-area -->
+
+                    <div id="sidebar">
+                        <div class="content widget-area">
+
+
+                            <div class="clear"></div>
+                            <aside id="iconbox-4" class=" widget iconbox">
+                                <div class="icon-box_w_text">
+
+                                </div>
+                                <div class="clear">
+
+                                </div>
+                            </aside>
+                            <aside id="iconbox-3" class=" widget iconbox">
+                                <div class="icon-box_w_text">
+
+                                </div>
+                                <div class="clear"></div>
+                            </aside>
+                        </div><!-- .content widget-area -->
+                    </div><!-- #sidebar -->
+
+                </div><!-- inner -->
+            </div><!-- #primary.pagemid -->
+
+        </div><!-- #main -->
+    </div><!-- #wrapper -->
+    <!-- #layout -->
+    <div id="back-top" style="display: none;">
+        <a href="#header" title="Scroll Top"><span><i class="fa fa-angle-up fa-fw fa-2x"></i></span></a>
+    </div>
+
+
+    <script type="text/javascript">
+        (function () {
+            var c = document.body.className;
+            c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+            document.body.className = c;
+        })();
+    </script>
+    <script type="text/javascript" src="https://www.aivahthemes.com/wp/storeup/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.7" id="regenerator-runtime-js"></script>
+    <script type="text/javascript" src="https://www.aivahthemes.com/wp/storeup/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0" id="wp-polyfill-js"></script>
+    <script type="text/javascript" id="contact-form-7-js-extra">
+        /* <![CDATA[ */
+        var wpcf7 = { "api": { "root": "https:\/\/www.aivahthemes.com\/wp\/storeup\/wp-json\/", "namespace": "contact-form-7\/v1" }, "cached": "1" };
+        /* ]]> */
+    </script>
+    <script type="text/javascript" src="https://www.aivahthemes.com/wp/storeup/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.5.6.1" id="contact-form-7-js"></script>
+    <script type="text/javascript" src="https://www.aivahthemes.com/wp/storeup/wp-content/plugins/storeup-core/storeup-shortcodes/js/frontend/jquery.easing.1.3.js?ver=1" id="storeup-sc-easing-js"></script>
+    <script type="text/javascript" src="https://www.aivahthemes.com/wp/storeup/wp-content/plugins/storeup-core/storeup-shortcodes/js/frontend/jquery.sticky.js?ver=1" id="storeup-sc-sticky-js"></script>
+    <script type="text/javascript" src="https://www.aivahthemes.com/wp/storeup/wp-content/plugins/storeup-core/storeup-shortcodes/js/frontend/sc_script.js?ver=1" id="storeup-sc-script-js"></script>
+    <script type="text/javascript" src="https://www.aivahthemes.com/wp/storeup/wp-content/plugins/storeup-core/storeup-shortcodes/js/frontend/waypoints.js?ver=1" id="waypoints-js"></script>
+    <script type="text/javascript" src="https://www.aivahthemes.com/wp/storeup/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.6.5.1" id="js-cookie-js"></script>
+    <script type="text/javascript" id="woocommerce-js-extra">
+        /* <![CDATA[ */
+        var woocommerce_params = { "ajax_url": "\/wp\/storeup\/wp-admin\/admin-ajax.php", "wc_ajax_url": "\/wp\/storeup\/?wc-ajax=%%endpoint%%" };
+        /* ]]> */
+    </script>
+    <script type="text/javascript" src="https://www.aivahthemes.com/wp/storeup/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=6.5.1" id="woocommerce-js"></script>
+    <script type="text/javascript" id="wc-cart-fragments-js-extra">
+        /* <![CDATA[ */
+        var wc_cart_fragments_params = { "ajax_url": "\/wp\/storeup\/wp-admin\/admin-ajax.php", "wc_ajax_url": "\/wp\/storeup\/?wc-ajax=%%endpoint%%", "cart_hash_key": "wc_cart_hash_9a416e7394c8a69946fe3da94fdcd6b3", "fragment_name": "wc_fragments_9a416e7394c8a69946fe3da94fdcd6b3", "request_timeout": "5000" };
+        /* ]]> */
+    </script>
+    <script type="text/javascript" src="https://www.aivahthemes.com/wp/storeup/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=6.5.1" id="wc-cart-fragments-js"></script>
+    <script type="text/javascript" src="https://www.aivahthemes.com/wp/storeup/wp-content/plugins/storeup-core/storeup-vcaddons/assets/js/storeup_vc_script.js?ver=504b80dfe2e4865f6060c36faa551620" id="storeup-vc-script-js"></script>
+    <script type="text/javascript" src="https://www.aivahthemes.com/wp/storeup/wp-content/themes/storeup/js/hoverIntent.js?ver=504b80dfe2e4865f6060c36faa551620" id="hoverintent-js"></script>
+    <script type="text/javascript" src="https://www.aivahthemes.com/wp/storeup/wp-content/themes/storeup/js/superfish.js?ver=504b80dfe2e4865f6060c36faa551620" id="superfish-js"></script>
+    <script type="text/javascript" src="https://www.aivahthemes.com/wp/storeup/wp-content/themes/storeup/js/jquery.fitvids.js?ver=5.0" id="fitvids-js"></script>
+    <script type="text/javascript" id="storeup-customjs-js-extra">
+        /* <![CDATA[ */
+        var storeup_localize_script_param = [];
+        storeup_localize_script_param = { "ajaxurl": "https:\/\/www.aivahthemes.com\/wp\/storeup\/wp-admin\/admin-ajax.php", "home_url": "https:\/\/www.aivahthemes.com\/wp\/storeup", "directory_uri": "https:\/\/www.aivahthemes.com\/wp\/storeup\/wp-content\/themes\/storeup" };
+        /* ]]> */
+    </script>
+    <script type="text/javascript" src="https://www.aivahthemes.com/wp/storeup/wp-content/themes/storeup/js/storeup-custom.js?ver=5.0" id="storeup-customjs-js"></script>
+    <script type="text/javascript" id="storeup-post-like-js-extra">
+        /* <![CDATA[ */
+        var ivaLove = { "ajaxurl": "https:\/\/www.aivahthemes.com\/wp\/storeup\/wp-admin\/admin-ajax.php", "youLikedit": "You already liked it!" };
+/* ]]> */
+    </script>
+    <script type="text/javascript" src="https://www.aivahthemes.com/wp/storeup/wp-content/themes/storeup/js/storeup-post-like.js?ver=1.0" id="storeup-post-like-js"></script>
+    <script type="text/javascript" src="https://www.aivahthemes.com/wp/storeup/wp-content/themes/storeup/storeup-niche/js/storeup-front-script.js?ver=504b80dfe2e4865f6060c36faa551620" id="storeup-front-script-js"></script>
+    <script type="text/javascript" src="https://www.aivahthemes.com/wp/storeup/wp-content/themes/storeup/storeup-niche/js/jquery.tablesorter.min.js?ver=504b80dfe2e4865f6060c36faa551620" id="storeup-table-sorter-js"></script>
+    <script type="text/javascript" src="https://www.aivahthemes.com/wp/storeup/wp-includes/js/wp-embed.min.js?ver=504b80dfe2e4865f6060c36faa551620" id="wp-embed-js"></script>
+
+
+</body>

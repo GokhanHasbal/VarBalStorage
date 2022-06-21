@@ -1,0 +1,98 @@
+﻿
+
+@using VarBal.Models;
+@model List<Category>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/Admin_Layout.cshtml";
+    int i = 0;
+}
+
+<div class="content-page">
+    <div class="content">
+
+        <!-- Start Content-->
+        <div class="container-fluid">
+
+
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-body">
+
+                            <div class="row">
+
+                                <div class="col-12 mb-3">
+                                    <h4 class="mt-0 header-title">Category List</h4>
+                                    <p class="text-muted font-14 mb-3 float-start">
+                                        Sitede bulunan kategori listesi
+                                    </p>
+                                    <a class="btn btn-success float-end" href="~/Category/Add"><i class="fa fa-plus"></i> Category Add</a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <table id="datatable-buttons" class="table table-striped table-bordered dt-responsive nowrap">
+                                        <thead>
+                                            <tr>
+                                                <th>No</th>
+                                                <th>Name</th>
+                                                <th>Main Category</th>
+                                                <th>Status</th>
+                                                <th>Setting</th>
+                                            </tr>
+                                        </thead>
+
+                                        <tbody>
+                                            @foreach (var category in Model)
+                                            {
+                                                i++;
+
+                                                <tr>
+                                                    <td>@i</td>
+                                                    <td>@category.Name</td>
+                                                    <td>
+                                                        @{
+                                                            var name = ""; if (category.MainCategoryId != 0)
+                                                            {
+                                                                name = Model.FirstOrDefault(x => x.Id == category.MainCategoryId).Name;
+                                                            }
+                                                        }
+                                                        @if (name != "")
+                                                        {
+                                                            <a class="btn btn-danger"> Sub Category</a>
+                                                            <a class="btn btn-primary"> @name</a>
+                                                        }
+                                                        else
+                                                        {
+                                                            <a class="btn btn-info">Main Category</a>
+                                                        }
+                                                    </td>
+
+                                                    @{var status = category.Status == true ? "btn-success" : "btn-danger"; }
+                                                    <td><a href="~/Category/CategoryStatusEdit?id=@category.Id" class="btn  @status">@category.Status</a></td>
+
+                                                    <td>
+                                                        <a href="~/Category/Edit?id=@category.Id" class="btn btn-success"><i class="mdi mdi-folder-star"></i></a>
+                                                        <a href="~/Category/Delete?id=@category.Id" class="btn btn-danger"><i class="fa fa-trash"></i></a>
+                                                    </td>
+                                                </tr>
+                                            }
+
+                                        </tbody>
+                                    </table>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+

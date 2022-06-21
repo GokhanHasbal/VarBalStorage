@@ -1,0 +1,92 @@
+﻿@using VarBal.AdminModel;
+@using System;
+@using System.Globalization;
+
+@model UserModel
+
+@{
+    ViewBag.Title = "Add";
+    Layout = "~/Views/Shared/Admin_Layout.cshtml";
+    var register = DateTime.Now;
+}
+
+
+<div class="content-page">
+    <div class="content">
+
+        <!-- Start Content-->
+        <div class="container-fluid">
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="header-title">Reset Password</h4>
+                            <p class="sub-header">
+                                Şifrenizi değiştirin
+                            </p>
+
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <form method="post" action="~/User/Add">
+
+                                        <div class="mb-3">
+                                            <label class="form-label">Email</label>
+                                            <input type="email" class="form-control" name="Email" id="Email" required>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label class="form-label">User Name</label>
+                                            <input type="text" class="form-control" id="Username" name="Username" required>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="Name" class="form-label">Name</label>
+                                            <input type="text" id="Name" name="Name" class="form-control" required>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="Surname" class="form-label">Surname</label>
+                                            <input type="text" id="Surname" name="Surname" class="form-control" required>
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <label for="Phone" class="form-label">Phone</label>
+                                            <input type="text" id="Phone" name="Phone" class="form-control" required>
+                                        </div>
+
+
+                                        <div class="mb-3">
+                                            <label class="form-label">Permisson</label>
+                                            <select class="form-control" name="PermissionId" id="PermissionId">
+                                                @foreach (var item in Model.Permission)
+                                                {
+                                                    <option value="@item.Id">@item.Name</option>
+                                                }
+                                            </select>
+
+                                        </div>
+                                        <div class="form-check mb-2 form-check-success">
+                                            <input class="form-check-input" type="checkbox" value="true" id="Status" name="Status" checked="">
+                                            <label class="form-check-label" for="customckeck1">Status</label>
+                                        </div>
+
+                                        <input type="hidden" value="@register" name="RegistrationDate" id="RegistrationDate" />
+
+                                        <button class="btn btn-success" type="submit">Add New Account</button>
+                                    </form>
+                                </div> <!-- end col -->
+                                <div class="col-md-6 text-center">
+                                    <h3>Sisteme Yeni Kullanıcı Ekleme</h3>
+                                    <p>Bilgileri Eksiksiz Bir Şekilde Dodurunuz ve Boş Alan Bırakmayınız.</p>
+                                    <h2>@ViewBag.mesaj</h2>
+                                </div>
+                            </div>
+                            <!-- end row-->
+
+                        </div> <!-- end card-body -->
+                    </div> <!-- end card -->
+                </div><!-- end col -->
+            </div>
+            <!-- end row -->
+        </div>
+    </div>
+</div>
+
