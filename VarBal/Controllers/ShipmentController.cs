@@ -158,7 +158,7 @@ namespace VarBal.Controllers
 
             };
 
-            if (urun.Barcode!=depo.Barcode)
+            if (depo==null)
             {
                 db.Product.Add(newproduct);
                 db.SaveChanges();
